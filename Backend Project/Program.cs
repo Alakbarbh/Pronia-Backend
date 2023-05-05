@@ -39,6 +39,7 @@ builder.Services.Configure<IdentityOptions>(opt =>
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<ILayoutService, LayoutService>();
 builder.Services.AddScoped<ISliderService, SliderServive>();
+builder.Services.AddScoped<IAdvertisingService, AdvertisingService>();
 
 var app = builder.Build();
 
