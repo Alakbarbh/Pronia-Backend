@@ -1,4 +1,6 @@
 ﻿using Backend_Project.Models;
+using Backend_Project.Services.Interfaces;
+using Backend_Project.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -6,16 +8,20 @@ namespace Backend_Project.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly ISliderService _sliderService;
+        public HomeController(ISliderService sliderService)
         {
-            _logger = logger;
+            _sliderService = sliderService;
         }
-
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            List<Slider> sliders = await _sliderService.GetAll();
+
+            HomeVM model = new()
+            {
+                Sliders = sliders
+            };
+            return View(model);
         }
 
         
