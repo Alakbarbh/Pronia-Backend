@@ -43,11 +43,10 @@
     <div class="main-wrapper">
         <!-- Begin Main Header Area -->
         @await Component.InvokeAsync("Header");
-
         @RenderBody()
+        @await Component.InvokeAsync("Footer");
 
-
-        <div class="footer-area"
+        @*<div class="footer-area"
              data-bg-image="assets/images/footer/bg/1-1920x465.jpg">
             <div class="footer-top section-space-top-100 pb-60">
                 <div class="container">
@@ -218,7 +217,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>*@
         <!-- Footer Area End Here -->
         <!-- Begin Modal Area -->
         <div class="modal quick-view-modal fade"

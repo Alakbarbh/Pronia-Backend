@@ -1,6 +1,8 @@
 ﻿using Backend_Project.Data;
+using Backend_Project.Models;
 using Backend_Project.Services.Interfaces;
 using Backend_Project.ViewModels;
+using Microsoft.EntityFrameworkCore;
 
 namespace Backend_Project.Services
 {
@@ -12,10 +14,16 @@ namespace Backend_Project.Services
             _context = context;
         }
 
-        public LayoutVM GetSettingDatas()
+        public Dictionary<string,string> GetSettingsData()
         {
             Dictionary<string, string> settings = _context.Settings.AsEnumerable().ToDictionary(m => m.Key, m => m.Value);
-            return new LayoutVM { Settings = settings };
+            return settings;
+        }
+
+        public async Task<IEnumerable<Social>> GetSocialData()
+        {
+            IEnumerable<Social> social = await _context.Socials.Where(m => !m.SoftDelete).ToListAsync();
+            return social;
         }
     }
 }

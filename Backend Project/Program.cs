@@ -40,6 +40,8 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<ILayoutService, LayoutService>();
 builder.Services.AddScoped<ISliderService, SliderServive>();
 builder.Services.AddScoped<IAdvertisingService, AdvertisingService>();
+builder.Services.AddScoped<IProductService, ProductService>();
+
 
 var app = builder.Build();
 

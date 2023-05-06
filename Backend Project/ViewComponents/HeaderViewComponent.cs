@@ -12,7 +12,7 @@ namespace EntityFramework_Slider.ViewComponents
         }
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            return await Task.FromResult(View(_layoutService.GetSettingDatas()));
+            return await Task.FromResult(View(_layoutService.GetSettingsData()));
         }
     }
 }
