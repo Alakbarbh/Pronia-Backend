@@ -1,4 +1,5 @@
 ﻿using Backend_Project.Services.Interfaces;
+using Backend_Project.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EntityFramework_Slider.ViewComponents
@@ -12,7 +13,13 @@ namespace EntityFramework_Slider.ViewComponents
         }
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            return await Task.FromResult(View(_layoutService.GetSettingsData()));
+
+            LayoutVM model = new()
+            {
+                Settings = _layoutService.GetSettingsData()
+            };
+
+            return await Task.FromResult(View(model));
         }
     }
 }

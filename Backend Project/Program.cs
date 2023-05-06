@@ -41,6 +41,10 @@ builder.Services.AddScoped<ILayoutService, LayoutService>();
 builder.Services.AddScoped<ISliderService, SliderServive>();
 builder.Services.AddScoped<IAdvertisingService, AdvertisingService>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ISocialService, SocialService>();
+builder.Services.AddScoped<IClientService, ClientService>();
+builder.Services.AddScoped<IBrandService, BrandService>();
+builder.Services.AddScoped<IBlogService, BlogService>();
 
 
 var app = builder.Build();

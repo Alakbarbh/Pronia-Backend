@@ -1,4 +1,4 @@
-﻿@model LayoutVM
+﻿@model FooterVM
 
 
 <div class="footer-area"
@@ -10,7 +10,7 @@
                     <div class="footer-widget-item">
                         <div class="footer-widget-logo">
                             <a href="index.html">
-                                <img src="~/assets/images/logo/dark.png" alt="Logo" />
+                                <img src="~/assets/images/logo/@Model.Settings["HeaderLogo"]" alt="Logo" />
                             </a>
                         </div>
                         <p class="footer-widget-desc">
@@ -21,50 +21,23 @@
                         </p>
                         <div class="social-link with-border">
                             <ul>
-                                <li>
-                                    <a href="#"
+
+                                @foreach (var item in Model.Socials)
+                                {
+                                    <li>
+                                    <a href="@item.Link"
                                        data-tippy="Facebook"
                                        data-tippy-inertia="true"
                                        data-tippy-animation="shift-away"
                                        data-tippy-delay="50"
                                        data-tippy-arrow="true"
                                        data-tippy-theme="sharpborder">
-                                        <i class="fa fa-facebook"></i>
+                                        <i class="@item.Image"></i>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#"
-                                       data-tippy="Twitter"
-                                       data-tippy-inertia="true"
-                                       data-tippy-animation="shift-away"
-                                       data-tippy-delay="50"
-                                       data-tippy-arrow="true"
-                                       data-tippy-theme="sharpborder">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                       data-tippy="Pinterest"
-                                       data-tippy-inertia="true"
-                                       data-tippy-animation="shift-away"
-                                       data-tippy-delay="50"
-                                       data-tippy-arrow="true"
-                                       data-tippy-theme="sharpborder">
-                                        <i class="fa fa-pinterest"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                       data-tippy="Dribbble"
-                                       data-tippy-inertia="true"
-                                       data-tippy-animation="shift-away"
-                                       data-tippy-delay="50"
-                                       data-tippy-arrow="true"
-                                       data-tippy-theme="sharpborder">
-                                        <i class="fa fa-dribbble"></i>
-                                    </a>
-                                </li>
+                                }
+                                
+                                
                             </ul>
                         </div>
                     </div>

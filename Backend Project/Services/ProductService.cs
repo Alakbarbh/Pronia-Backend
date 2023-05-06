@@ -13,9 +13,22 @@ namespace Backend_Project.Services
             _context = context;
         }
         public async Task<List<Product>> GetAll() => await _context.Products.Include(m => m.Images).Where(m => !m.SoftDelete).ToListAsync();
+
+        public async Task<Product> GettFullDataById(int id) => await _context.Products.Include(m => m.Images)
+                                                                                       .Include(m => m.ProductSizes)
+                                                                                       .Include(m => m.ProductTags)
+                                                                                       .Include(m => m.Color)
+                                                                                       .Include(m => m.Comments)
+                                                                                       .Include(m => m.ProductCategories)?
+                                                                                       .FirstOrDefaultAsync(m => m.Id == id);
+
         public async Task<Product> GetById(int id) => await _context.Products.FindAsync(id);
         public async Task<int> GetCountAsync() => await _context.Products.CountAsync();
 
+        public async Task<List<Product>> GetFeaturedProducts() => await _context.Products.Where(m => !m.SoftDelete).OrderByDescending(m => m.Rate).ToListAsync();
+        public async Task<List<Product>> GetBestsellerProducts() => await _context.Products.Where(m => !m.SoftDelete).OrderByDescending(m => m.SaleCount).ToListAsync();
+        public async Task<List<Product>> GetLatestProducts() => await _context.Products.Where(m => !m.SoftDelete).OrderByDescending(m => m.CreateDate).ToListAsync();
+        public async Task<List<Product>> GetNewProducts() => await _context.Products.Where(m => !m.SoftDelete).OrderByDescending(m => m.CreateDate).Take(4).ToListAsync();
 
         //public async Task<Product> GetFullDataById(int id) => await _context.Products.Include(m => m.Images).Include(m => m.Category).FirstOrDefaultAsync(m => m.Id == id);
         //public async Task<List<Product>> GetPaginateDatas(int page, int take) => await _context.Products.Include(m => m.Category).Include(m => m.Images).Skip((page * take) - take).Take(take).ToListAsync();

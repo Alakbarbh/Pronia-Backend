@@ -5,7 +5,6 @@ namespace Backend_Project.Services.Interfaces
 {
     public interface ILayoutService
     {
-        Dictionary<string, string> GetSettingsData();
-        Task<IEnumerable<Social>> GetSocialData();
+        Dictionary<string,string> GetSettingsData();
     }
 }
