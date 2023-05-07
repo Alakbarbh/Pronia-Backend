@@ -12,7 +12,7 @@ namespace Backend_Project.Services.Interfaces
         Task<List<Product>> GetLatestProducts();
         Task<List<Product>> GetNewProducts();
 
-        //Task<Product> GetFullDataById(int id);
-        //Task<List<Product>> GetPaginateDatas(int page, int take);
+        Task<Product> GetFullDataById(int id);
+        Task<List<Product>> GetPaginateDatas(int page, int take);
     }
 }

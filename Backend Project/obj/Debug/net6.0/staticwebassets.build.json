@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KX36Y+BQTOtkhawLtHDOguf/N1Lq8SAf4zNwLfU5UsM=",
+  "Hash": "/BejbRG+0Z7gipDXXLss3S8bujhwhvW/59+CTL0D9JE=",
   "Source": "BackendProject",
   "BasePath": "_content/BackendProject",
   "Mode": "Default",
@@ -2990,6 +2990,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\plugins\\wow.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\js\\Pronia.js",
+      "SourceId": "BackendProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\",
+      "BasePath": "_content/BackendProject",
+      "RelativePath": "assets/js/Pronia.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\Pronia.js"
     },
     {
       "Identity": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\js\\vendor\\bootstrap.bundle.min.js",

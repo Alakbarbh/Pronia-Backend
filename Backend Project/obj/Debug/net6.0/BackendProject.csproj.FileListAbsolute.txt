@@ -1,3 +1,11 @@
+C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\BackendProject.csproj.AssemblyReference.cache
+C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\BackendProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\BackendProject.AssemblyInfoInputs.cache
+C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\BackendProject.AssemblyInfo.cs
+C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\BackendProject.csproj.CoreCompileInputs.cache
+C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\BackendProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\BackendProject.RazorAssemblyInfo.cache
+C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\BackendProject.RazorAssemblyInfo.cs
 C:\Users\VICTUS\Desktop\Backend Project\Backend Project\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\VICTUS\Desktop\Backend Project\Backend Project\bin\Debug\net6.0\appsettings.json
 C:\Users\VICTUS\Desktop\Backend Project\Backend Project\bin\Debug\net6.0\BackendProject.staticwebassets.runtime.json
@@ -254,14 +262,6 @@ C:\Users\VICTUS\Desktop\Backend Project\Backend Project\bin\Debug\net6.0\runtime
 C:\Users\VICTUS\Desktop\Backend Project\Backend Project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\VICTUS\Desktop\Backend Project\Backend Project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\VICTUS\Desktop\Backend Project\Backend Project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\BackendProject.csproj.AssemblyReference.cache
-C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\BackendProject.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\BackendProject.AssemblyInfoInputs.cache
-C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\BackendProject.AssemblyInfo.cs
-C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\BackendProject.csproj.CoreCompileInputs.cache
-C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\BackendProject.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\BackendProject.RazorAssemblyInfo.cache
-C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\BackendProject.RazorAssemblyInfo.cs
 C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\staticwebassets\msbuild.BackendProject.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\staticwebassets\msbuild.build.BackendProject.props
 C:\Users\VICTUS\Desktop\Backend Project\Backend Project\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BackendProject.props
