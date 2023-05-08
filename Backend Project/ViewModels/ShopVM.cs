@@ -11,5 +11,6 @@ namespace Backend_Project.ViewModels
         public List<Product> Products { get; set; }
         public List<Color> Colors { get; set; }
         public Paginate<Product> PaginateProduct { get; set; }
+        public List<Tag> Tags { get; set; }
     }
 }

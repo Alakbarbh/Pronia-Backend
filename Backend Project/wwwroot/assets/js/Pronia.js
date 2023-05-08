@@ -78,6 +78,63 @@
         })
     })
 
-    
+
+
+    //search
+    $(document).on("submit", ".hm-searchbox", function (e) {
+        e.preventDefault();
+        let value = $(".input-search").val();
+        let url = `/shop/MainSearch?searchText=${value}`;
+
+        window.location.assign(url);
+
+    })
+
+
+
+    //SEARCH WITH li
+
+    $(document).on("keyup", ".input-field", function () {
+        debugger
+        $("#search-list li").slice(1).remove();
+        let value = $(".input-field").val();
+
+        $.ajax({
+
+            url: `shop/search?searchText=${value}`,
+
+            type: "Get",
+
+            success: function (res) {
+                console.log(res)
+                $("#search-list").append(res);
+            }
+
+
+
+        })
+    })
+
+
+
+    $(document).on("click", ".product-tag", function (e) {
+        e.preventDefault();
+        let tagId = $(this).attr("data-id")
+        let parent = $(".product-list");
+
+        $.ajax({
+            url: `shop/GetProductsByTag?id=${tagId}`,
+            type: "Get",
+            success: function (res) {
+                $(parent).html(res);
+
+            }
+        })
+    })
+
+
+
+
+
     
 })

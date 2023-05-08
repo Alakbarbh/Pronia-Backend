@@ -14,18 +14,26 @@ namespace Backend_Project.Services
         }
         public async Task<List<Product>> GetAll() => await _context.Products.Include(m => m.Images)
                                                                                        .Include(m => m.ProductSizes)
+                                                                                       .ThenInclude(m=>m.Size)
                                                                                        .Include(m => m.ProductTags)
+                                                                                       .ThenInclude(m=>m.Tag)
                                                                                        .Include(m => m.Color)
                                                                                        .Include(m => m.Comments)
-                                                                                       .Include(m => m.ProductCategories)?.ToListAsync();
+                                                                                       .Include(m => m.ProductCategories)
+                                                                                       .ToListAsync();
 
-        public async Task<Product> GettFullDataById(int id) => await _context.Products.Include(m => m.Images)
-                                                                                       .Include(m => m.ProductSizes)
-                                                                                       .Include(m => m.ProductTags)
-                                                                                       .Include(m => m.Color)
-                                                                                       .Include(m => m.Comments)
-                                                                                       .Include(m => m.ProductCategories)?
-                                                                                       .FirstOrDefaultAsync(m => m.Id == id);
+        public async Task<Product> GettFullDataById(int id) { 
+            var a = await _context.Products.Include(m => m.Images)
+                                                                .Include(m => m.ProductSizes)
+                                                                .ThenInclude(m => m.Size)
+                                                                .Include(m => m.ProductTags)
+                                                                .Include(m => m.Color)
+                                                                .Include(m => m.Comments)
+                                                                .Include(m => m.ProductCategories)
+                                                                .ThenInclude(m => m.Category)
+                                                                .FirstOrDefaultAsync(m => m.Id == id);
+            return a;
+        } 
 
         public async Task<Product> GetById(int id) => await _context.Products.FindAsync(id);
         public async Task<int> GetCountAsync() => await _context.Products.CountAsync();

@@ -1,6 +1,7 @@
 ﻿using Backend_Project.Data;
 using Backend_Project.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Backend_Project.Controllers
 {
@@ -23,5 +24,7 @@ namespace Backend_Project.Controllers
 
             return View(model);
         }
+
+       
     }
 }

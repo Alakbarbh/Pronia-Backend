@@ -14,15 +14,21 @@ namespace Backend_Project.Controllers
         private readonly ICategoryService _categoryService;
         private readonly IProductService _productService;
         private readonly IColorService _colorService;
+        private readonly ITagService _tagService;
+        private readonly IAdvertisingService _advertisingService;
         public ShopController(AppDbContext context,
                               ICategoryService categoryService,
                               IProductService productService,
-                              IColorService colorService)
+                              IColorService colorService,
+                              ITagService tagService,
+                              IAdvertisingService advertisingService)
         {
             _context = context;
             _categoryService = categoryService;
             _productService = productService;
             _colorService = colorService;
+            _tagService = tagService;
+            _advertisingService = advertisingService;
         }
         public async Task<IActionResult> Index(int page = 1,int take = 4)
         {
@@ -36,6 +42,7 @@ namespace Backend_Project.Controllers
             List<Product> newProducts = await _productService.GetNewProducts();
             List<Product> products = await _productService.GetAll();
             List<Color> colors = await _colorService.GetAllColors();
+            List<Tag> tags = await _tagService.GetAllAsync();
 
             ShopVM model = new()
             {
@@ -44,7 +51,8 @@ namespace Backend_Project.Controllers
                 NewProduct = newProducts,
                 Products = products,
                 Colors = colors,
-                PaginateProduct = paginateDatas
+                PaginateProduct = paginateDatas,
+                Tags = tags
             };
 
             return View(model);
@@ -94,7 +102,63 @@ namespace Backend_Project.Controllers
             List<Product> products = await _context.Products.OrderByDescending(m=>m.Price).ToListAsync();
 
             return PartialView("_ProductsPartial", products);
-
         }
+
+
+        public async Task<IActionResult> MainSearch(string searchText)
+        {
+            var products = await _context.Products
+                                .Include(m => m.Images)
+                                .Include(m => m.ProductCategories)?
+                                .OrderByDescending(m => m.Id)
+                                .Where(m => !m.SoftDelete && m.Name.ToLower().Trim().Contains(searchText.ToLower().Trim()))
+                                .Take(6)
+                                .ToListAsync();
+
+            return View(products);
+        }
+
+
+
+        public async Task<IActionResult> Search(string searchText)
+        {
+            List<Product> products = await _context.Products.Include(m => m.Images)
+                                            .Include(m => m.ProductCategories)
+                                            .Include(m => m.ProductSizes)
+                                            .Include(m => m.ProductTags)
+                                            .Include(m => m.Comments)
+                                            .Where(m => m.Name.ToLower().Contains(searchText.ToLower()))
+                                            .Take(5)
+                                            .ToListAsync();
+            return PartialView("_SearchPartial", products);
+        }
+
+
+        public async Task<IActionResult> ProductDetail(int? id)
+        {
+            Product product = await _productService.GettFullDataById((int)id);
+            Dictionary<string, string> headerBackground = _context.HeaderBackgrounds.AsEnumerable().ToDictionary(m => m.Key, m => m.Value);
+            List<Product> products = await _productService.GetAll();
+            List<Advertising> advertisings = await _advertisingService.GetAll();
+            ProductDetailVM model = new()
+            {
+                ProductDetail = product,
+                HeaderBackgrounds = headerBackground,
+                Products = products,
+                Advertisings = advertisings,
+            };
+            return View(model);
+        }
+
+
+
+        public async Task<IActionResult> GetProductsByTag(int? id)
+        {
+            List<Product> products = await _context.ProductTags.Where(m => m.Tag.Id == id).Select(m => m.Product).ToListAsync();
+
+            return PartialView("_ProductsPartial", products);
+        }
+
+
     }
 }
