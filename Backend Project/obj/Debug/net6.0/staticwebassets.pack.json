@@ -5,6 +5,1814 @@
       "PackagePath": "staticwebassets\\BackendProject.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\CHANGES.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\CHANGES.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\LICENSE.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\README.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\SECURITY.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\SECURITY.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\adapters\\jquery.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\adapters\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\bender-runner.config.json",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\bender-runner.config.json"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\build-config.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\build-config.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\ckeditor.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\config.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\contents.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\contents.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\af.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\af.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\ar.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\az.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\az.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\bg.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\bn.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\bn.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\bs.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\bs.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\ca.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\ca.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\cs.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\cy.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\da.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\da.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\de-ch.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\de-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\de.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\de.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\el.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\el.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\en-au.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\en-au.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\en-ca.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\en-ca.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\en-gb.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\en-gb.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\en.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\en.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\eo.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\es-mx.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\es-mx.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\es.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\es.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\et.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\et.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\eu.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\eu.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\fa.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\fi.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\fo.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\fo.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\fr-ca.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\fr-ca.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\fr.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\gl.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\gl.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\gu.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\gu.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\he.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\he.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\hi.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\hi.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\hr.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\hu.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\hu.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\id.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\id.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\is.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\is.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\it.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\it.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\ja.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\ja.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\ka.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\ka.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\km.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\km.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\ko.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\ko.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\ku.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\ku.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\lt.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\lt.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\lv.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\lv.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\mk.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\mk.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\mn.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\mn.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\ms.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\ms.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\nb.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\nl.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\no.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\no.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\oc.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\oc.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\pl.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\pt-br.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\pt.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\pt.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\ro.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\ru.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\ru.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\si.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\si.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\sk.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\sk.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\sl.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\sl.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\sq.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\sq.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\sr-latn.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\sr-latn.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\sr.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\sr.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\sv.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\sv.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\th.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\th.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\tr.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\tt.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\tt.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\ug.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\uk.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\vi.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\lang\\zh.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\lang\\zh.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\a11yhelp.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\a11yhelp.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\_translationstatus.txt",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\_translationstatus.txt"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\af.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\af.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ar.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\az.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\az.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\bg.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ca.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ca.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cs.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cy.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\da.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\da.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de-ch.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\el.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\el.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-au.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-au.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-gb.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-gb.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eo.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es-mx.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es-mx.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\et.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\et.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eu.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eu.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fa.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fi.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fo.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fo.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr-ca.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr-ca.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gl.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gl.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gu.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gu.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\he.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\he.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hi.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hi.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hr.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hu.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hu.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\id.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\id.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\it.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\it.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ja.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ja.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\km.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\km.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ko.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ko.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ku.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ku.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lt.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lt.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lv.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lv.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mk.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mk.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mn.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mn.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nb.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nl.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\no.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\no.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\oc.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\oc.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pl.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt-br.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ro.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ru.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ru.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\si.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\si.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sk.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sk.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sl.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sl.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sq.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sq.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr-latn.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr-latn.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sv.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sv.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\th.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\th.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tr.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tt.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tt.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ug.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\uk.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\vi.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\about\\dialogs\\about.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\about\\dialogs\\about.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\about\\dialogs\\hidpi\\logo_ckeditor.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\about\\dialogs\\hidpi\\logo_ckeditor.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\about\\dialogs\\logo_ckeditor.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\about\\dialogs\\logo_ckeditor.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\clipboard\\dialogs\\paste.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\clipboard\\dialogs\\paste.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\colordialog\\dialogs\\colordialog.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\colordialog\\dialogs\\colordialog.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\colordialog\\dialogs\\colordialog.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\colordialog\\dialogs\\colordialog.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\copyformatting\\cursors\\cursor-disabled.svg",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\copyformatting\\cursors\\cursor-disabled.svg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\copyformatting\\cursors\\cursor.svg",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\copyformatting\\cursors\\cursor.svg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\copyformatting\\styles\\copyformatting.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\copyformatting\\styles\\copyformatting.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\dialog\\dialogDefinition.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\dialog\\dialogDefinition.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\dialog\\styles\\dialog.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\dialog\\styles\\dialog.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\div\\dialogs\\div.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\div\\dialogs\\div.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\CHANGELOG.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\LICENSE.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\README.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\plugindefinition.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\plugindefinition.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\_helpers\\tools.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\_helpers\\tools.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\authentication.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\authentication.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\exportpdf.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\exportpdf.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\configfilename.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\configfilename.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\configfilename.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\configfilename.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\emptyeditor.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\emptyeditor.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\emptyeditor.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\emptyeditor.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integration.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integration.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integration.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integration.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integrations\\easyimage.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integrations\\easyimage.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integrations\\easyimage.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integrations\\easyimage.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notifications.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notifications.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notifications.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notifications.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notificationsasync.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notificationsasync.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notificationsasync.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notificationsasync.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\paperformat.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\paperformat.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\paperformat.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\paperformat.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\readonly.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\readonly.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\readonly.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\readonly.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\stylesheets.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\stylesheets.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\stylesheets.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\stylesheets.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenfetching.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenfetching.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenfetching.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenfetching.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorscorrect.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorscorrect.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorscorrect.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorscorrect.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorswrong.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorswrong.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorswrong.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorswrong.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenwithouturl.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenwithouturl.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenwithouturl.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenwithouturl.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\wrongendpoint.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\wrongendpoint.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\wrongendpoint.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\wrongendpoint.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\notification.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\notification.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\resourcespaths.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\resourcespaths.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\statistics.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\statistics.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\stylesheets.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\exportpdf\\tests\\stylesheets.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\find\\dialogs\\find.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\find\\dialogs\\find.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\forms\\dialogs\\button.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\forms\\dialogs\\button.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\forms\\dialogs\\checkbox.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\forms\\dialogs\\checkbox.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\forms\\dialogs\\form.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\forms\\dialogs\\form.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\forms\\dialogs\\hiddenfield.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\forms\\dialogs\\hiddenfield.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\forms\\dialogs\\radio.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\forms\\dialogs\\radio.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\forms\\dialogs\\select.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\forms\\dialogs\\select.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\forms\\dialogs\\textarea.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\forms\\dialogs\\textarea.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\forms\\dialogs\\textfield.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\forms\\dialogs\\textfield.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\forms\\images\\hiddenfield.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\forms\\images\\hiddenfield.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\icons.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\icons.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\icons_hidpi.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\icons_hidpi.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\iframe\\dialogs\\iframe.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\iframe\\dialogs\\iframe.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\iframe\\images\\placeholder.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\iframe\\images\\placeholder.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\image\\dialogs\\image.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\image\\dialogs\\image.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\image\\images\\noimage.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\image\\images\\noimage.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\link\\dialogs\\anchor.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\link\\dialogs\\anchor.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\link\\dialogs\\link.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\link\\dialogs\\link.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\link\\images\\anchor.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\link\\images\\anchor.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\link\\images\\hidpi\\anchor.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\link\\images\\hidpi\\anchor.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\liststyle\\dialogs\\liststyle.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\liststyle\\dialogs\\liststyle.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon-rtl.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon-rtl.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\magicline\\images\\icon-rtl.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\magicline\\images\\icon-rtl.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\magicline\\images\\icon.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\magicline\\images\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\pagebreak\\images\\pagebreak.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\pagebreak\\images\\pagebreak.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\pastefromgdocs\\filter\\default.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\pastefromgdocs\\filter\\default.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\pastefromlibreoffice\\filter\\default.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\pastefromlibreoffice\\filter\\default.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\pastefromword\\filter\\default.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\pastefromword\\filter\\default.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\pastetools\\filter\\common.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\pastetools\\filter\\common.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\pastetools\\filter\\image.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\pastetools\\filter\\image.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\preview\\images\\pagebreak.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\preview\\images\\pagebreak.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\preview\\preview.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\preview\\preview.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\preview\\styles\\screen.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\preview\\styles\\screen.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\scayt\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\scayt\\CHANGELOG.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\scayt\\LICENSE.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\scayt\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\scayt\\README.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\scayt\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\scayt\\dialogs\\dialog.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\scayt\\dialogs\\dialog.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\scayt\\dialogs\\options.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\scayt\\dialogs\\options.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\scayt\\dialogs\\toolbar.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\scayt\\dialogs\\toolbar.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\scayt\\skins\\moono-lisa\\scayt.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\scayt\\skins\\moono-lisa\\scayt.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_address.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_address.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_blockquote.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_blockquote.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_div.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_div.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_h1.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_h1.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_h2.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_h2.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_h3.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_h3.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_h4.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_h4.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_h5.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_h5.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_h6.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_h6.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_p.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_p.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_pre.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\showblocks\\images\\block_pre.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\dialogs\\smiley.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\dialogs\\smiley.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\angel_smile.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\angel_smile.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\angel_smile.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\angel_smile.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\angry_smile.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\angry_smile.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\angry_smile.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\angry_smile.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\broken_heart.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\broken_heart.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\broken_heart.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\broken_heart.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\confused_smile.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\confused_smile.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\confused_smile.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\confused_smile.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\cry_smile.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\cry_smile.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\cry_smile.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\cry_smile.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\devil_smile.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\devil_smile.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\devil_smile.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\devil_smile.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\embaressed_smile.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\embaressed_smile.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\embarrassed_smile.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\embarrassed_smile.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\embarrassed_smile.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\embarrassed_smile.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\envelope.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\envelope.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\envelope.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\envelope.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\heart.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\heart.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\heart.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\heart.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\kiss.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\kiss.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\kiss.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\kiss.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\lightbulb.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\lightbulb.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\lightbulb.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\lightbulb.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\omg_smile.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\omg_smile.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\omg_smile.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\omg_smile.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\regular_smile.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\regular_smile.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\regular_smile.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\regular_smile.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\sad_smile.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\sad_smile.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\sad_smile.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\sad_smile.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\shades_smile.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\shades_smile.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\shades_smile.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\shades_smile.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\teeth_smile.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\teeth_smile.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\teeth_smile.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\teeth_smile.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\thumbs_down.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\thumbs_down.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\thumbs_down.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\thumbs_down.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\thumbs_up.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\thumbs_up.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\thumbs_up.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\thumbs_up.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\tongue_smile.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\tongue_smile.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\tongue_smile.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\tongue_smile.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\tounge_smile.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\tounge_smile.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\whatchutalkingabout_smile.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\whatchutalkingabout_smile.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\whatchutalkingabout_smile.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\whatchutalkingabout_smile.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\wink_smile.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\wink_smile.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\smiley\\images\\wink_smile.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\smiley\\images\\wink_smile.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\_translationstatus.txt",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\_translationstatus.txt"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\af.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\af.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ar.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\az.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\az.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\bg.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ca.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ca.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cs.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cy.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\da.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\da.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de-ch.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\el.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\el.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-au.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-au.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-ca.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-ca.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-gb.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-gb.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eo.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es-mx.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es-mx.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\et.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\et.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eu.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eu.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fa.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fi.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr-ca.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr-ca.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\gl.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\gl.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\he.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\he.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hr.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hu.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hu.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\id.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\id.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\it.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\it.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ja.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ja.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\km.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\km.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ko.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ko.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ku.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ku.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lt.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lt.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lv.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lv.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nb.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nl.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\no.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\no.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\oc.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\oc.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pl.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt-br.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ro.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ru.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ru.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\si.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\si.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sk.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sk.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sl.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sl.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sq.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sq.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr-latn.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr-latn.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sv.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sv.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\th.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\th.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tr.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tt.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tt.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ug.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\uk.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\vi.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\specialchar.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\specialchar\\dialogs\\specialchar.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\table\\dialogs\\table.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\table\\dialogs\\table.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\tableselection\\styles\\tableselection.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\tableselection\\styles\\tableselection.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\tabletools\\dialogs\\tableCell.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\tabletools\\dialogs\\tableCell.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\templates\\dialogs\\templates.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\templates\\dialogs\\templates.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\templates\\dialogs\\templates.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\templates\\dialogs\\templates.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\templates\\templatedefinition.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\templates\\templatedefinition.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\templates\\templates\\default.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\templates\\templates\\default.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\templates\\templates\\images\\template1.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\templates\\templates\\images\\template1.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\templates\\templates\\images\\template2.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\templates\\templates\\images\\template2.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\templates\\templates\\images\\template3.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\templates\\templates\\images\\template3.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\plugins\\widget\\images\\handle.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\plugins\\widget\\images\\handle.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\css\\samples.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\css\\samples.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\img\\github-top.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\img\\github-top.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\img\\header-bg.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\img\\header-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\img\\header-separator.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\img\\header-separator.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\img\\logo.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\img\\logo.svg",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\img\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\img\\navigation-tip.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\img\\navigation-tip.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\index.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\js\\sample.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\js\\sample.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\js\\sf.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\js\\sf.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\ajax.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\ajax.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\api.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\api.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\appendto.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\appendto.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\assets\\inlineall\\logo.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\assets\\inlineall\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\assets\\outputxhtml\\outputxhtml.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\assets\\outputxhtml\\outputxhtml.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\assets\\posteddata.php",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\assets\\posteddata.php"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\assets\\sample.jpg",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\assets\\sample.jpg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\assets\\uilanguages\\languages.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\assets\\uilanguages\\languages.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\datafiltering.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\datafiltering.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\dialog\\assets\\my_dialog.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\dialog\\assets\\my_dialog.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\dialog\\dialog.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\dialog\\dialog.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\divreplace.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\divreplace.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\enterkey\\enterkey.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\enterkey\\enterkey.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\htmlwriter\\outputhtml.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\htmlwriter\\outputhtml.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\index.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\inlineall.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\inlineall.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\inlinebycode.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\inlinebycode.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\inlinetextarea.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\inlinetextarea.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\jquery.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\jquery.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\magicline\\magicline.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\magicline\\magicline.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\readonly.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\readonly.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\replacebyclass.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\replacebyclass.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\replacebycode.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\replacebycode.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\sample.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\sample.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\sample.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\sample.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\sample_posteddata.php",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\sample_posteddata.php"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\tabindex.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\tabindex.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\toolbar\\toolbar.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\toolbar\\toolbar.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\uicolor.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\uicolor.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\uilanguages.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\uilanguages.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\wysiwygarea\\fullpage.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\wysiwygarea\\fullpage.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\old\\xhtmlstyle.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\old\\xhtmlstyle.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\css\\fontello.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\css\\fontello.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\font\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\font\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\font\\config.json",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\font\\config.json"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.eot",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.eot"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.svg",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.svg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.ttf",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.ttf"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.woff",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.woff"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\index.html",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\js\\abstracttoolbarmodifier.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\js\\abstracttoolbarmodifier.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\js\\fulltoolbareditor.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\js\\fulltoolbareditor.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbarmodifier.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbarmodifier.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbartextmodifier.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbartextmodifier.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\LICENSE",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\javascript.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\javascript.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\neo.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\neo.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\dialog.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\dialog.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\dialog_ie.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\dialog_ie.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\dialog_ie8.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\dialog_ie8.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\dialog_iequirks.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\dialog_iequirks.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\editor.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\editor.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\editor_gecko.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\editor_gecko.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\editor_ie.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\editor_ie.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\editor_ie8.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\editor_ie8.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\editor_iequirks.css",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\editor_iequirks.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\icons.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\icons.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\icons_hidpi.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\icons_hidpi.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\images\\arrow.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\images\\arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\images\\close.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\close.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock-open.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock-open.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\refresh.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\refresh.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\images\\lock-open.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\images\\lock-open.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\images\\lock.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\images\\lock.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\images\\refresh.png",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\images\\refresh.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\images\\spinner.gif",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\images\\spinner.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\skins\\moono-lisa\\readme.md",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\skins\\moono-lisa\\readme.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\styles.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\styles.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\ckeditor\\vendor\\promise.js",
+      "PackagePath": "staticwebassets\\Admin\\ckeditor\\vendor\\promise.js"
+    },
+    {
       "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\Admin\\css\\main.css",
       "PackagePath": "staticwebassets\\Admin\\css\\main.css"
     },
@@ -977,6 +2785,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-1-310x220.jpg"
     },
     {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\1-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-1-524x617.png"
+    },
+    {
       "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\1-1-570x633.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-1-570x633.jpg"
     },
@@ -1113,10 +2925,6 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1.png"
     },
     {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\1001cbf0-3a9f-4549-8ae5-fd1c0ca123f4_WIN_20230208_02_24_04_Pro.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1001cbf0-3a9f-4549-8ae5-fd1c0ca123f4_WIN_20230208_02_24_04_Pro.jpg"
-    },
-    {
       "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\2-1-370x270.webp",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\2-1-370x270.webp"
     },
@@ -1145,36 +2953,8 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\3.png"
     },
     {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\33616464-86af-473b-a294-b4ca035337d0_WIN_20230208_02_24_04_Pro.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\33616464-86af-473b-a294-b4ca035337d0_WIN_20230208_02_24_04_Pro.jpg"
-    },
-    {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\42677512-f499-4004-b657-4b89a3ff377e_WIN_20230208_02_24_04_Pro.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\42677512-f499-4004-b657-4b89a3ff377e_WIN_20230208_02_24_04_Pro.jpg"
-    },
-    {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\4fa40143-090a-4c71-ad47-cf16c4b4df1c_WIN_20230208_02_24_04_Pro.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\4fa40143-090a-4c71-ad47-cf16c4b4df1c_WIN_20230208_02_24_04_Pro.jpg"
-    },
-    {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\5bb148cc-c6c9-4323-a7eb-c5232c404340_WIN_20230208_02_24_04_Pro.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\5bb148cc-c6c9-4323-a7eb-c5232c404340_WIN_20230208_02_24_04_Pro.jpg"
-    },
-    {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\62177ef9-39e1-4518-ae32-daf3a2e7a60e_WIN_20230208_02_24_04_Pro.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\62177ef9-39e1-4518-ae32-daf3a2e7a60e_WIN_20230208_02_24_04_Pro.jpg"
-    },
-    {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\7b53ef83-80d1-43ac-85a2-3bd80a3758a0_WIN_20230208_02_24_04_Pro.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\7b53ef83-80d1-43ac-85a2-3bd80a3758a0_WIN_20230208_02_24_04_Pro.jpg"
-    },
-    {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\83b33b5c-0bee-4b8c-bffa-53fc30bc394f_WIN_20230208_02_24_04_Pro.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\83b33b5c-0bee-4b8c-bffa-53fc30bc394f_WIN_20230208_02_24_04_Pro.jpg"
-    },
-    {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\cacefc65-d111-4972-9c9f-1645571b6899_WIN_20230208_02_24_04_Pro.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\cacefc65-d111-4972-9c9f-1645571b6899_WIN_20230208_02_24_04_Pro.jpg"
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\a7c2f55d-ac3c-41f0-b764-613d2c4a2ca5_WIN_20230208_02_24_00_Pro.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\a7c2f55d-ac3c-41f0-b764-613d2c4a2ca5_WIN_20230208_02_24_00_Pro.jpg"
     },
     {
       "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\car.png",
@@ -1185,36 +2965,8 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\card.png"
     },
     {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\cccdb5f9-7d3b-4090-a50a-92745296c350_WIN_20230208_02_24_04_Pro.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\cccdb5f9-7d3b-4090-a50a-92745296c350_WIN_20230208_02_24_04_Pro.jpg"
-    },
-    {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\ceb4e8bd-9787-43ba-aa46-0e3a08870947_WIN_20230208_02_24_04_Pro.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\ceb4e8bd-9787-43ba-aa46-0e3a08870947_WIN_20230208_02_24_04_Pro.jpg"
-    },
-    {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\d1047e4a-418b-4c8c-aafa-2c6a7ba87385_WIN_20230208_02_24_04_Pro.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\d1047e4a-418b-4c8c-aafa-2c6a7ba87385_WIN_20230208_02_24_04_Pro.jpg"
-    },
-    {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\d907ca12-588b-4e31-bc61-28bf99818954_WIN_20230208_02_24_00_Pro.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\d907ca12-588b-4e31-bc61-28bf99818954_WIN_20230208_02_24_00_Pro.jpg"
-    },
-    {
       "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\dark.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\dark.png"
-    },
-    {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\e0c90661-2934-42d8-a3e7-378b2464bc63_WIN_20230208_02_24_04_Pro.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\e0c90661-2934-42d8-a3e7-378b2464bc63_WIN_20230208_02_24_04_Pro.jpg"
-    },
-    {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\e928d46c-24cf-43b7-ae55-093520c7e172_WIN_20230208_02_24_04_Pro.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\e928d46c-24cf-43b7-ae55-093520c7e172_WIN_20230208_02_24_04_Pro.jpg"
-    },
-    {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\f17a5b1c-a3c2-4659-b01c-53d9bc3ac59d_WIN_20230208_02_24_00_Pro.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\f17a5b1c-a3c2-4659-b01c-53d9bc3ac59d_WIN_20230208_02_24_00_Pro.jpg"
     },
     {
       "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\quotation.png",
@@ -1223,10 +2975,6 @@
     {
       "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\service.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\service.png"
-    },
-    {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\js\\Pronia.js",
-      "PackagePath": "staticwebassets\\assets\\js\\Pronia.js"
     },
     {
       "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\js\\main.js",

@@ -110,28 +110,6 @@ namespace Backend_Project.Areas.Admin.Controllers
         }
 
 
-
-
-
-        [HttpGet]
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null) return BadRequest();
-            Advertising dbAdvertising = await _advertisingService.GetById(id);
-            if (dbAdvertising is null) return NotFound();
-
-            AdvertisingUpdateVM model = new()
-            {
-                Image = dbAdvertising.Image,
-                Name = dbAdvertising.Name,
-                Description = dbAdvertising.Description,
-            };
-
-            return View(model);
-
-        }
-
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int? id)
@@ -160,6 +138,28 @@ namespace Backend_Project.Areas.Admin.Controllers
                 return View();
             }
         }
+
+
+
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null) return BadRequest();
+            Advertising dbAdvertising = await _advertisingService.GetById(id);
+            if (dbAdvertising is null) return NotFound();
+
+            AdvertisingUpdateVM model = new()
+            {
+                Image = dbAdvertising.Image,
+                Name = dbAdvertising.Name,
+                Description = dbAdvertising.Description,
+            };
+
+            return View(model);
+
+        }
+        
 
 
 

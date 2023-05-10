@@ -1,0 +1,57 @@
+﻿@model List<Client>
+@{
+    ViewData["Title"] = "Advertising";
+}
+
+<div class="container my-5">
+    <a class="btn btn-success text-white" asp-action="Create" style="float:right">Create</a>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        Image
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Operations
+                    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var advertising in Model)
+                {
+                    <tr>
+                        <td class="py-1">
+                            <img src="~/assets/images/website-images//@advertising.Image" style="width:70px;height:70px" alt="image" />
+                        </td>
+                        <td class="py-1">
+                            @advertising.Name
+                        </td>
+
+
+                        <td>
+                            <a class="btn btn-outline-info" asp-action="Detail" asp-route-id="@advertising.Id">Info</a>
+                            <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@advertising.Id">Edit</a>
+                            <form style="display:inline-block" asp-action="Delete" asp-route-id="@advertising.Id" method="post">
+                                <button type="submit" class="btn btn-outline-danger">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
+
+
+
