@@ -6,5 +6,6 @@ namespace Backend_Project.Services.Interfaces
     public interface ISliderService
     {
         Task<List<Slider>> GetAll();
+        Task<Slider> GetById(int? id);
     }
 }

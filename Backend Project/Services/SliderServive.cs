@@ -17,6 +17,12 @@ namespace Backend_Project.Services
             return await _context.Sliders.Where(m=>!m.SoftDelete).ToListAsync();
         }
 
-        
+
+        public async Task<Slider> GetById(int? id)
+        {
+            return await _context.Sliders.Where(m => !m.SoftDelete).FirstOrDefaultAsync(m=>m.Id == id);
+        }
+
+
     }
 }

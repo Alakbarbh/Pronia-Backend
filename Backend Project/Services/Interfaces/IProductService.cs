@@ -14,6 +14,6 @@ namespace Backend_Project.Services.Interfaces
 
         Task<Product> GetFullDataById(int id);
         Task<Product> GettFullDataById(int id);
-        Task<List<Product>> GetPaginateDatas(int page, int take);
+        Task<List<Product>> GetPaginateDatas(int page, int take, int? cateId);
     }
 }

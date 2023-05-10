@@ -17,5 +17,10 @@ namespace Backend_Project.Services
         {
             return await _context.Advertisings.Where(m => !m.SoftDelete).ToListAsync();
         }
+
+        public async Task<Advertising> GetById(int? id)
+        {
+            return await _context.Advertisings.Where(m => !m.SoftDelete).FirstOrDefaultAsync(m => m.Id == id);
+        }
     }
 }

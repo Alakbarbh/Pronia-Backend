@@ -139,6 +139,8 @@
 
     //blog
 
+
+
     $(document).on("click", ".category", function (e) {
         e.preventDefault();
         let categoryId = $(this).attr("data-id");

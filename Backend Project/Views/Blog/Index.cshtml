@@ -45,7 +45,7 @@
 
                                 <ul class="widgets-category">
                                     <li>
-                                        <a href="#" class="all-product">
+                                        <a asp-controller="shop" asp-action="Index" asp-route-cateId="" class="all-product">
                                             <i class="fa fa-chevron-right"></i>
                                             @foreach (var category in Model.Categories)
                                             {
@@ -58,7 +58,7 @@
                                     @foreach (var category in Model.Categories)
                                     {
                                         <li>
-                                            <a href="#" data-id="@category.Id" class="category">
+                                            <a asp-controller="shop" asp-action="Index" asp-route-cateId="@category.Id" data-id="@category.Id" class="category">
                                                 <i class="fa fa-chevron-right"></i>
                                                 @category.Name <span>(@category.ProductCategories?.Count())</span>
                                             </a>
@@ -80,7 +80,7 @@
                                                             @foreach (var blogImage in blog.Images)
                                                             {
                                                                 <img class="img-full"
-                                                             src="assets/images/website-images/@blog.Images"
+                                                             src="assets/images/website-images/@blogImage.Image"
                                                              alt="Blog Images" />
                                                             }
                                                         </a>
@@ -92,7 +92,7 @@
                                                             </ul>
                                                         </div>
                                                         <h2 class="title mb-0">
-                                                            <a href="#">@blog.Description</a>
+                                                            <a href="#">@blog.Description.Substring(0,15)</a>
                                                         </h2>
                                                     </div>
                                                 </div>
@@ -100,7 +100,7 @@
 
                                         }
 
-                                        
+
 
 
                                     </div>
@@ -160,13 +160,13 @@
                                     </div>
                                     <div class="blog-img img-hover-effect">
                                         <a href="blog-detail.html">
-                                            @foreach (var item in blog.Images)
+                                            @foreach (var blogImage in blog.Images)
                                             {
                                                 <img class="img-full"
-                                             src="assets/images/website-images/@item.Image"
+                                             src="assets/images/website-images/@blogImage.Image"
                                              alt="Blog Image" />
                                             }
-                                            
+
                                         </a>
                                         <div class="inner-btn-wrap">
                                             <a class="inner-btn" href="blog-detail.html">
@@ -177,8 +177,8 @@
                                 </div>
                             </div>
                         }
-                       
-                        
+
+
                         <div class="col-md-6">
                             <div class="blog-item">
                                 <div class="blog-content">
@@ -233,7 +233,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
 
                     <div class="pagination-area">

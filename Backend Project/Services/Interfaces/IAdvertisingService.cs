@@ -5,5 +5,6 @@ namespace Backend_Project.Services.Interfaces
     public interface IAdvertisingService
     {
         Task<List<Advertising>> GetAll();
+        Task<Advertising> GetById(int? id);
     }
 }

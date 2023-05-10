@@ -81,7 +81,29 @@ namespace Backend_Project.Controllers
             return (int)Math.Ceiling((decimal)blogCount / take);
         }
 
+        public async Task<IActionResult> GetProductByCategory(int? id)
+        {
+            List<Product> products = await _context.ProductCategories.Where(m => m.CategoryId == id).Select(m => m.Product).ToListAsync();
 
-        
+            return PartialView("_ProductsPartial", products);
+
+        }
+
+
+        public async Task<IActionResult> GetAllProduct(int? id)
+        {
+            List<Product> products = await _productService.GetAll();
+
+            return PartialView("_ProductsPartial", products);
+
+        }
+
+        public async Task<IActionResult> GetProductsByTag(int? id)
+        {
+            List<Product> products = await _context.ProductTags.Where(m => m.Tag.Id == id).Select(m => m.Product).ToListAsync();
+
+            return PartialView("_ProductsPartial", products);
+        }
+
     }
 }
