@@ -19,5 +19,15 @@ namespace Backend_Project.Services
                                                  Include(m => m.Author).
                                                  Include(m => m.Comments).
                                                  ToListAsync();
+
+        public async Task<int> GetCountAsync() => await _context.Products.CountAsync();
+
+        public async Task<List<BLog>> GetPaginateDatas(int page, int take) => await _context.BLogs.
+            Where(m => !m.SoftDelete).
+            Include(m => m.Images).
+            Include(m => m.Author).
+            Include(m => m.Comments).
+            Skip((page * take) - take).
+            Take(take).ToListAsync();
     }
 }

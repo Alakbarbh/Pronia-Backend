@@ -140,6 +140,20 @@ namespace Backend_Project.Controllers
             Dictionary<string, string> headerBackground = _context.HeaderBackgrounds.AsEnumerable().ToDictionary(m => m.Key, m => m.Value);
             List<Product> products = await _productService.GetAll();
             List<Advertising> advertisings = await _advertisingService.GetAll();
+
+            //var related = await _context.Products.Include(m => m.ProductCategories).ThenInclude(m => m.Category).ToListAsync();
+
+            List<Category> categories = await _categoryService.GetCategories();
+            List<Product> relatedProducts = new();
+            
+            foreach (var category in categories)
+            {
+                Product relatedProduct = await _context.ProductCategories.Where(m => m.Category.Id == category.Id).Select(m => m.Product).FirstAsync();
+                relatedProducts.Add(relatedProduct);
+            }
+
+            
+
             ProductDetailVM model = new()
             {
                 ProductDetail = product,
