@@ -50,6 +50,7 @@ builder.Services.AddScoped<IColorService, ColorService>();
 builder.Services.AddScoped<ITagService, TagService>();
 builder.Services.AddScoped<IBannerService, BannerService>();
 builder.Services.AddScoped<IAuthorService, AuthorService>();
+builder.Services.AddScoped<ISizeService, SizeService>();
 
 
 var app = builder.Build();

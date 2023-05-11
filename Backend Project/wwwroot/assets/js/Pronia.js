@@ -8,7 +8,7 @@
         let parent = $(".product-list")
         $.ajax({
 
-            url: `shop/GetProductsByCategory?id=${colorId}`,
+            url: `shop/GetProductByCategory?id=${colorId}`,
             type: "Get",
 
             success: function (res) {
@@ -22,13 +22,13 @@
 
 
     //get all products by category  on click All
-    $(document).on("click", ".allproducts", function (e) {
+    $(document).on("click", ".all-product", function (e) {
 
         e.preventDefault();
         let parent = $(".product-list")
         $.ajax({
 
-            url: "shop/GetAllProducts",
+            url: "shop/GetAllProduct",
             type: "Get",
 
             success: function (res) {
@@ -41,14 +41,14 @@
     })
 
       //get products by color  on click color
-    $(document).on("click", ".color", function (e) {
+    $(document).on("click", ".product-color", function (e) {
 
         e.preventDefault();
         let colorId = $(this).attr("data-id");
         let parent = $(".product-list")
         $.ajax({
 
-            url: `shop/GetProductsByColor?id=${colorId}`,
+            url: `shop/GetProductByColor?id=${colorId}`,
             type: "Get",
 
             success: function (res) {
@@ -61,15 +61,14 @@
     })
 
 
-
     //get all products by color  on click All
-    $(document).on("click", ".allColors", function (e) {
+    $(document).on("click", ".all-color", function (e) {
 
         e.preventDefault();
         let parent = $(".product-list")
         $.ajax({
 
-            url: "shop/GetAllProducts",
+            url: "shop/GetAllProductByColor",
             type: "Get",
 
             success: function (res) {
@@ -80,6 +79,8 @@
 
 
     })
+
+
 
 
     //SEARCH WITH li
@@ -103,7 +104,6 @@
 
         })
 
-
     })
 
 
@@ -113,16 +113,15 @@
     $(document).on("submit", ".hm-searchbox", function (e) {
         e.preventDefault();
         let value = $(".input-search").val();
-        let url = `/shop/mainsearch?searchText=${value}`;
+        let url = `/shop/MainSearch?searchText=${value}`;
 
         window.location.assign(url);
-
 
     })
 
 
     //get products by tag  on click tag
-    $(document).on("click", ".tag", function (e) {
+    $(document).on("click", ".product-tag", function (e) {
 
         e.preventDefault();
         let tagId = $(this).attr("data-id");

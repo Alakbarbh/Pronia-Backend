@@ -1,0 +1,55 @@
+﻿@model List<Tag>
+@{
+    ViewData["Title"] = "Tag";
+}
+
+<div class="container my-5">
+    <a class="btn btn-success text-white" asp-action="Create" style="float:right">Create</a>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Operations
+                    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var tag in Model)
+                {
+                    <tr>
+                        <td class="py-1">
+                            @Html.Raw(tag.Name)
+                        </td>
+
+
+                        <td>
+                            <a class="btn btn-outline-info" asp-action="Detail" asp-route-id="@tag.Id">Info</a>
+                            <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@tag.Id">Edit</a>
+                            <form style="display:inline-block" asp-action="Delete" asp-route-id="@tag.Id" method="post">
+                                <button type="submit" class="btn btn-outline-danger">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
