@@ -2889,10 +2889,6 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-4-570x633.jpg"
     },
     {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\1-4-770x300.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-4-770x300.jpg"
-    },
-    {
       "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\1-4.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-4.png"
     },
@@ -2953,8 +2949,12 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\3.png"
     },
     {
-      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\a7c2f55d-ac3c-41f0-b764-613d2c4a2ca5_WIN_20230208_02_24_00_Pro.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\a7c2f55d-ac3c-41f0-b764-613d2c4a2ca5_WIN_20230208_02_24_00_Pro.jpg"
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\3c998dbe-9169-4db0-af2a-4d080f0ac771_Cavid Bəşirov.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\3c998dbe-9169-4db0-af2a-4d080f0ac771_Cavid Bəşirov.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\850bc99d-38c9-4b7a-a634-f9d82fd7bb48_WIN_20230208_02_24_00_Pro.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\850bc99d-38c9-4b7a-a634-f9d82fd7bb48_WIN_20230208_02_24_00_Pro.jpg"
     },
     {
       "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\car.png",
@@ -2975,6 +2975,10 @@
     {
       "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\service.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\service.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\js\\Pronia.js",
+      "PackagePath": "staticwebassets\\assets\\js\\Pronia.js"
     },
     {
       "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\js\\main.js",

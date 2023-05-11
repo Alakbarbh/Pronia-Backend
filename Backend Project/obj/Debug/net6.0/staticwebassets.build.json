@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zUmUgShsw5bVses3IlQoFY46nvZA7EetH2ifM+SXt8s=",
+  "Hash": "JtzoyG9wVUeOeiOG0aYUH7N1Ohp7CoOo06Uw2IOakvg=",
   "Source": "BackendProject",
   "BasePath": "_content/BackendProject",
   "Mode": "Default",
@@ -12342,23 +12342,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\1-4-570x633.jpg"
     },
     {
-      "Identity": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\1-4-770x300.jpg",
-      "SourceId": "BackendProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\",
-      "BasePath": "_content/BackendProject",
-      "RelativePath": "assets/images/website-images/1-4-770x300.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\1-4-770x300.jpg"
-    },
-    {
       "Identity": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\1-5.png",
       "SourceId": "BackendProject",
       "SourceType": "Discovered",
@@ -12580,12 +12563,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\3.png"
     },
     {
-      "Identity": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\a7c2f55d-ac3c-41f0-b764-613d2c4a2ca5_WIN_20230208_02_24_00_Pro.jpg",
+      "Identity": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\3c998dbe-9169-4db0-af2a-4d080f0ac771_Cavid Bəşirov.jpeg",
       "SourceId": "BackendProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\",
       "BasePath": "_content/BackendProject",
-      "RelativePath": "assets/images/website-images/a7c2f55d-ac3c-41f0-b764-613d2c4a2ca5_WIN_20230208_02_24_00_Pro.jpg",
+      "RelativePath": "assets/images/website-images/3c998dbe-9169-4db0-af2a-4d080f0ac771_Cavid Bəşirov.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -12594,7 +12577,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\a7c2f55d-ac3c-41f0-b764-613d2c4a2ca5_WIN_20230208_02_24_00_Pro.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\3c998dbe-9169-4db0-af2a-4d080f0ac771_Cavid Bəşirov.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\850bc99d-38c9-4b7a-a634-f9d82fd7bb48_WIN_20230208_02_24_00_Pro.jpg",
+      "SourceId": "BackendProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\",
+      "BasePath": "_content/BackendProject",
+      "RelativePath": "assets/images/website-images/850bc99d-38c9-4b7a-a634-f9d82fd7bb48_WIN_20230208_02_24_00_Pro.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\850bc99d-38c9-4b7a-a634-f9d82fd7bb48_WIN_20230208_02_24_00_Pro.jpg"
     },
     {
       "Identity": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\car.png",
@@ -12867,6 +12867,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\plugins\\wow.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\js\\Pronia.js",
+      "SourceId": "BackendProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\",
+      "BasePath": "_content/BackendProject",
+      "RelativePath": "assets/js/Pronia.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\Pronia.js"
     },
     {
       "Identity": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\js\\vendor\\bootstrap.bundle.min.js",

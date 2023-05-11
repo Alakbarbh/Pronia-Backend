@@ -1,4 +1,4 @@
-﻿@model List<Banner>
+﻿@model List<Brand>
 @{
     ViewData["Title"] = "Advertising";
 }
@@ -13,12 +13,6 @@
                         Image
                     </th>
                     <th>
-                        Name
-                    </th>
-                    <th>
-                        IsLrage
-                    </th>
-                    <th>
                         Operations
                     </th>
 
@@ -31,23 +25,7 @@
                         <td class="py-1">
                             <img src="~/assets/images/website-images//@banner.Image" style="width:70px;height:70px" alt="image" />
                         </td>
-                        <td class="py-1">
-                            @Html.Raw(@banner.Name)
-                        </td>
                         
-                        <td data-id="@banner.Id">
-                            @*<p class=@(slider.SoftDelete ? "text-danger" : "text-success")>Status</p>*@
-                            @if (banner.SoftDelete)
-                            {
-                                <div class="deActive-status slider-status"></div>
-                            }
-                            else
-                            {
-                                <div class="active-status slider-status"></div>
-                            }
-
-
-                        </td>
 
                         <td>
                             <a class="btn btn-outline-info" asp-action="Detail" asp-route-id="@banner.Id">Info</a>
@@ -64,6 +42,8 @@
         </table>
     </div>
 </div>
+
+
 
 
 

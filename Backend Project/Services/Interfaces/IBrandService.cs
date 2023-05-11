@@ -5,5 +5,6 @@ namespace Backend_Project.Services.Interfaces
     public interface IBrandService
     {
         Task<List<Brand>> GetBrands();
+        Task<Brand> GetById(int? id);
     }
 }
