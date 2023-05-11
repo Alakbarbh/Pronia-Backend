@@ -5,5 +5,6 @@ namespace Backend_Project.Services.Interfaces
     public interface IColorService
     {
         Task<List<Color>> GetAllColors();
+        Task<Color> GetById(int? id);
     }
 }

@@ -29,5 +29,18 @@ namespace Backend_Project.Services
             Include(m => m.Comments).
             Skip((page * take) - take).
             Take(take).ToListAsync();
+
+
+        public async Task<BLog> GetById(int? id)
+        {
+            return await _context.BLogs.Where(m => !m.SoftDelete).
+                                        Include(m=>m.Images).
+                                        Include(m=>m.Author).
+                                        Include(m=>m.Comments).
+                                        FirstOrDefaultAsync(m => m.Id == id);
+        }
+
+
+        public async Task<IEnumerable<Author>> GetAuthorsAsync() => await _context.Authors.ToListAsync();
     }
 }

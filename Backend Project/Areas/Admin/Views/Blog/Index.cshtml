@@ -1,0 +1,60 @@
+﻿@model IEnumerable<BLog>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container my-5">
+    <a class="btn btn-success text-white" asp-action="Create" style="float:right">Create</a>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        Image
+                    </th>
+                    <th>
+                        Status
+                    </th>
+                    <th>
+                        Operations
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var blog in Model)
+                {
+                    <tr>
+                        <td class="py-1">
+                            <img src="~/assets/images/website-images//@blog.Images.FirstOrDefault().Image" style="width:70px;height:70px" alt="image" />
+                        </td>
+
+                        <td>
+                            @if (blog.SoftDelete)
+                            {
+                                <div class="deActive-status"></div>
+                            }
+                            else
+                            {
+                                <div class="active-status"></div>
+                            }
+
+
+                        </td>
+                        <td>
+                            <a class="btn btn-outline-info" asp-action="Detail" asp-route-id="@blog.Id">Info</a>
+                            <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@blog.Id">Edit</a>
+                            <form style="display:inline-block" asp-action="Delete" asp-route-id="@blog.Id" method="post">
+                                <button type="submit" class="btn btn-outline-danger">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
