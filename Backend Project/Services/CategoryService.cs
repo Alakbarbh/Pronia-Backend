@@ -16,5 +16,10 @@ namespace Backend_Project.Services
         {
             return await _context.Categories.Include(m => m.ProductCategories).Where(m => !m.SoftDelete).ToListAsync();
         }
+
+        public async Task<Category> GetById(int? id)
+        {
+            return await _context.Categories.Where(m => !m.SoftDelete).FirstOrDefaultAsync(m => m.Id == id);
+        }
     }
 }
