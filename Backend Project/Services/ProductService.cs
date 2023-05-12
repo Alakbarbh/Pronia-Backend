@@ -28,6 +28,7 @@ namespace Backend_Project.Services
                                                                 .Include(m => m.ProductSizes)
                                                                 .ThenInclude(m => m.Size)
                                                                 .Include(m => m.ProductTags)
+                                                                .ThenInclude(m=>m.Tag)
                                                                 .Include(m => m.Color)
                                                                 .Include(m => m.Comments)
                                                                 .Include(m => m.ProductCategories)

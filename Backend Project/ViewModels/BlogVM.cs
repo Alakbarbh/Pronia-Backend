@@ -1,5 +1,5 @@
 ﻿using Backend_Project.Models;
-using EntityFramework_Slider.Helpers;
+using Backend_Project.Helpers;
 
 namespace Backend_Project.ViewModels
 {

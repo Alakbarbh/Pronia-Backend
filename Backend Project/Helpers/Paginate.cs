@@ -1,4 +1,4 @@
-﻿namespace EntityFramework_Slider.Helpers
+﻿namespace Backend_Project.Helpers
 {
     public class Paginate<T>
     {

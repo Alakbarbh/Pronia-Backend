@@ -2,7 +2,7 @@
 using Backend_Project.Models;
 using Backend_Project.Services.Interfaces;
 using Backend_Project.ViewModels;
-using EntityFramework_Slider.Helpers;
+using Backend_Project.Helpers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
