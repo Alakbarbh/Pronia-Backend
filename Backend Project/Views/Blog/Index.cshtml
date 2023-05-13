@@ -100,9 +100,6 @@
 
                                         }
 
-
-
-
                                     </div>
                                 </div>
                             </div>
@@ -138,7 +135,7 @@
                 <div class="col-xl-9 col-lg-8 order-1">
 
                     <div class="blog-item-wrap row g-y-30">
-                        @foreach (var blog in Model.BLogs.Skip(3))
+                        @foreach (var blog in Model.PaginateBlog.Datas)
                         {
                             <div class="col-md-6">
                                 <div class="blog-item">

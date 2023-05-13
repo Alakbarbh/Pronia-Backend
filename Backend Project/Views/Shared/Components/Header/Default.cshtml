@@ -84,12 +84,28 @@
                                     </button>
                                     <ul class="dropdown-menu"
                                         aria-labelledby="settingButton">
-                                        <li>
-                                            <a class="dropdown-item" href="my-account.html">My account</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="login-register.html">Login | Register</a>
-                                        </li>
+                                        @if (User.Identity.IsAuthenticated)
+                                        {
+                                            <li class="nav-item">
+                                                <form asp-controller="Account" asp-action="Logout" method="post">
+                                                    <button style="border:none" type="submit" class="nav-link">Logout</button>
+                                                </form>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="my-account.html">@User.Identity.Name</a>
+                                            </li>
+                                        }else{
+                                            <li>
+                                                <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
+                                            </li>
+
+                                            <li>
+                                                <a class="nav-link" asp-controller="Account" asp-action="Register">Register</a>
+                                            </li>
+                                        }
+
+
+                                        
                                     </ul>
                                 </li>
                                 <li class="d-none d-lg-block">

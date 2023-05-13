@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ROAEW2jkPS59hgPeuTvO9QGKrvhBXscUNRt70C5mpBM=",
+  "Hash": "Pu32MB4a2SgY0jZY1cuR8ANFex/Zn4bW+berdhhV8Yc=",
   "Source": "BackendProject",
   "BasePath": "_content/BackendProject",
   "Mode": "Default",
@@ -12495,6 +12495,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\19dda532-4bab-4d4a-a444-8ad8da7f8833_WIN_20230208_02_24_00_Pro.jpg"
     },
     {
+      "Identity": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\1a012d9e-3178-4b5e-a637-7001fc345b8a_about_1.jpg",
+      "SourceId": "BackendProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\",
+      "BasePath": "_content/BackendProject",
+      "RelativePath": "assets/images/website-images/1a012d9e-3178-4b5e-a637-7001fc345b8a_about_1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\1a012d9e-3178-4b5e-a637-7001fc345b8a_about_1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\2.png",
       "SourceId": "BackendProject",
       "SourceType": "Discovered",
@@ -12648,23 +12665,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\3fdd3d0b-b4bd-430b-9083-268e843ed469_course_2.jpg"
     },
     {
-      "Identity": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\685f314a-5686-45b2-86e3-1099c14ef0a8_Cavid Bəşirov.jpeg",
-      "SourceId": "BackendProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\",
-      "BasePath": "_content/BackendProject",
-      "RelativePath": "assets/images/website-images/685f314a-5686-45b2-86e3-1099c14ef0a8_Cavid Bəşirov.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\685f314a-5686-45b2-86e3-1099c14ef0a8_Cavid Bəşirov.jpeg"
-    },
-    {
       "Identity": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\77bf6913-5e05-4a83-aab4-e26e30d3e574_WIN_20230208_02_24_00_Pro.jpg",
       "SourceId": "BackendProject",
       "SourceType": "Discovered",
@@ -12731,6 +12731,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\9dcdf6cb-afad-45e4-a650-6811cb88429e_course_5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\aaf98f8f-5cfc-4e62-9e22-2ce321a24c3c_Chini.jpg",
+      "SourceId": "BackendProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\",
+      "BasePath": "_content/BackendProject",
+      "RelativePath": "assets/images/website-images/aaf98f8f-5cfc-4e62-9e22-2ce321a24c3c_Chini.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\aaf98f8f-5cfc-4e62-9e22-2ce321a24c3c_Chini.jpg"
     },
     {
       "Identity": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\images\\website-images\\afd3ee0a-c838-44cc-99e3-0a3916b5b0b3_course_3.jpg",

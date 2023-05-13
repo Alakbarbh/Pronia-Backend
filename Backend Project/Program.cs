@@ -51,6 +51,8 @@ builder.Services.AddScoped<ITagService, TagService>();
 builder.Services.AddScoped<IBannerService, BannerService>();
 builder.Services.AddScoped<IAuthorService, AuthorService>();
 builder.Services.AddScoped<ISizeService, SizeService>();
+builder.Services.AddScoped<IEmailService, EmailService>();
+
 
 
 var app = builder.Build();

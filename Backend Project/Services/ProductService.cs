@@ -28,7 +28,7 @@ namespace Backend_Project.Services
                                                                 .Include(m => m.ProductSizes)
                                                                 .ThenInclude(m => m.Size)
                                                                 .Include(m => m.ProductTags)
-                                                                .ThenInclude(m=>m.Tag)
+                                                                .ThenInclude(m => m.Tag)
                                                                 .Include(m => m.Color)
                                                                 .Include(m => m.Comments)
                                                                 .Include(m => m.ProductCategories)
@@ -45,8 +45,8 @@ namespace Backend_Project.Services
         public async Task<List<Product>> GetLatestProducts() => await _context.Products.Where(m => !m.SoftDelete).OrderByDescending(m => m.CreateDate).ToListAsync();
         public async Task<List<Product>> GetNewProducts() => await _context.Products.Where(m => !m.SoftDelete).OrderByDescending(m => m.CreateDate).Take(4).ToListAsync();
         public async Task<Product> GetFullDataById(int id) => await _context.Products.Include(m => m.Images).Include(m => m.ProductCategories).FirstOrDefaultAsync(m => m.Id == id);
-      
-        
+
+
         public async Task<List<Product>> GetPaginateDatas(int page, int take, int? cateId)
         {
             List<Product> products = null;
@@ -66,7 +66,7 @@ namespace Backend_Project.Services
             }
             else
             {
-                products = await _context.ProductCategories.Where(m => m.Category.Id == cateId).Select(m => m.Product).Where(m => !m.SoftDelete).
+            products = await _context.ProductCategories.Include(m=>m.Product).ThenInclude(m=>m.Images).Where(m => m.Category.Id == cateId).Select(m => m.Product).Where(m => !m.SoftDelete).
             Skip((page * take) - take).
             Take(take).ToListAsync();
             }

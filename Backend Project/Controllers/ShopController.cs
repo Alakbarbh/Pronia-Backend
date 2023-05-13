@@ -60,7 +60,7 @@ namespace Backend_Project.Controllers
 
         public async Task<IActionResult> GetProductByCategory(int? id)
         {
-            List<Product> products = await _context.ProductCategories.Where(m => m.CategoryId == id).Select(m => m.Product).ToListAsync();
+            List<Product> products = await _context.ProductCategories.Include(m=>m.Product).ThenInclude(m=>m.Images).Where(m => m.CategoryId == id).Select(m => m.Product).ToListAsync();
 
             return PartialView("_ProductsPartial", products);
 

@@ -105,5 +105,20 @@ namespace Backend_Project.Controllers
             return PartialView("_ProductsPartial", products);
         }
 
+
+        public async Task<IActionResult> BlogDetail(int? id)
+        {
+            BLog blog = await _blogService.GetById((int)id);
+            Dictionary<string, string> headerBackground = _context.HeaderBackgrounds.AsEnumerable().ToDictionary(m => m.Key, m => m.Value);
+
+            BlogDetailVM model = new()
+            {
+                BlogDt = blog,
+                HeaderBackgrounds = headerBackground
+            };
+
+            return View(model);
+        }
+
     }
 }

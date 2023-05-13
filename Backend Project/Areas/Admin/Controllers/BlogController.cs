@@ -161,9 +161,6 @@ namespace Backend_Project.Areas.Admin.Controllers
 
 
 
-
-
-
         private async Task<SelectList> GetAuthorAsync()
         {
             IEnumerable<Author> authors = await _blogService.GetAuthorsAsync();
