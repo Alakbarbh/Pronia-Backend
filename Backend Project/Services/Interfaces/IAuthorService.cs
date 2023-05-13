@@ -4,6 +4,7 @@ namespace Backend_Project.Services.Interfaces
 {
     public interface IAuthorService
     {
-        Task<Author> GetAllAsync(int? id);
+        Task<List<Author>> GetAllAuthor();
+        Task<Author> GetById(int? id);
     }
 }

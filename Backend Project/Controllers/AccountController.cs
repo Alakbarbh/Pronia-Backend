@@ -208,12 +208,18 @@ namespace Backend_Project.Controllers
             return View(new ResetPasswordVM { Token = token, UserId = userId });
         }
 
-
-        public async Task<IActionResult> ConfirmResetPassword(ResetPasswordVM resetPassword)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ResetPassword(ResetPasswordVM resetPassword)
         {
             if (!ModelState.IsValid) return View(resetPassword);
             AppUser existUser = await _userManager.FindByIdAsync(resetPassword.UserId);
             if (existUser == null) return NotFound();
+            if (await _userManager.CheckPasswordAsync(existUser,resetPassword.Password))
+            {
+                ModelState.AddModelError("", "New password cant be same with old password");
+                return View(resetPassword);
+            }
             await _userManager.ResetPasswordAsync(existUser, resetPassword.Token, resetPassword.Password);
             return RedirectToAction(nameof(Login));
         }
