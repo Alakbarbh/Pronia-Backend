@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Pu32MB4a2SgY0jZY1cuR8ANFex/Zn4bW+berdhhV8Yc=",
+  "Hash": "dVDfjlXRQ6S5E5q98UnHWOR+xLwMYZFZ9S4Uk/Muw1c=",
   "Source": "BackendProject",
   "BasePath": "_content/BackendProject",
   "Mode": "Default",
@@ -13802,6 +13802,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\scss\\style.scss"
+    },
+    {
+      "Identity": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\templates\\verify.html",
+      "SourceId": "BackendProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\",
+      "BasePath": "_content/BackendProject",
+      "RelativePath": "assets/templates/verify.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\templates\\verify.html"
     }
   ]
 }

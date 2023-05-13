@@ -88,7 +88,7 @@
                                         {
                                             <li class="nav-item">
                                                 <form asp-controller="Account" asp-action="Logout" method="post">
-                                                    <button style="border:none" type="submit" class="nav-link">Logout</button>
+                                                    <button style="border:none;color:black;margin-left:50px;background-color:white" type="submit" class="nav-link">Logout</button>
                                                 </form>
                                             </li>
                                             <li>
@@ -96,16 +96,13 @@
                                             </li>
                                         }else{
                                             <li>
-                                                <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
+                                                <a class="nav-link" style="color:black" asp-controller="Account" asp-action="Login">Login</a>
                                             </li>
 
                                             <li>
-                                                <a class="nav-link" asp-controller="Account" asp-action="Register">Register</a>
+                                                <a class="nav-link" style="color:black" asp-controller="Account" asp-action="Register">Register</a>
                                             </li>
                                         }
-
-
-                                        
                                     </ul>
                                 </li>
                                 <li class="d-none d-lg-block">

@@ -31,7 +31,7 @@ namespace Backend_Project.Controllers
         }
 
 
-        public async Task<IActionResult> Index(int page = 1, int take = 2)
+        public async Task<IActionResult> Index(int page = 1, int take = 4)
         {
             Dictionary<string, string> headerBackground = _context.HeaderBackgrounds.AsEnumerable().ToDictionary(m => m.Key, m => m.Value);
             List<BLog> bLogs = await _blogService.GetBlogs();
@@ -77,7 +77,7 @@ namespace Backend_Project.Controllers
 
         private async Task<int> GetPageCountAsync(int take)
         {
-            var blogCount = await _productService.GetCountAsync();
+            var blogCount = await _blogService.GetCountAsync();
             return (int)Math.Ceiling((decimal)blogCount / take);
         }
 

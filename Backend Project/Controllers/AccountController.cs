@@ -26,6 +26,7 @@ namespace Backend_Project.Controllers
         }
 
 
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(RegisterVM model)
@@ -41,6 +42,7 @@ namespace Backend_Project.Controllers
                 FirstName = model.FirstName,
                 Email = model.Email,
                 LastName = model.LastName,
+                UserName = string.Join("-",model.FirstName, model.LastName),
             };
 
             IdentityResult result = await _userManager.CreateAsync(newUser, model.Password);
@@ -65,7 +67,7 @@ namespace Backend_Project.Controllers
 
             string html = string.Empty;
 
-            using (StreamReader reader = new StreamReader("wwwroot/templates/verify.html"))
+            using (StreamReader reader = new StreamReader("wwwroot/assets/templates/verify.html"))
             {
                 html = reader.ReadToEnd();
             }
@@ -136,7 +138,7 @@ namespace Backend_Project.Controllers
                 return View(model);
             }
 
-            var result = await _signInManager.PasswordSignInAsync(user, model.Password, false, false);
+            var result = await _signInManager.PasswordSignInAsync(user, model.Password, model.IsRememberMe, false);
 
             if (!result.Succeeded)
             {
@@ -148,12 +150,6 @@ namespace Backend_Project.Controllers
         }
 
 
-
-
-
-
-
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()
@@ -161,5 +157,66 @@ namespace Backend_Project.Controllers
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
         }
+
+
+        [HttpGet]
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordVM forgotPassword)
+        {
+            if (!ModelState.IsValid) return View();
+
+            AppUser existUser = await _userManager.FindByEmailAsync(forgotPassword.Email);
+
+            if (existUser is null)
+            {
+                ModelState.AddModelError("Email", "User not found");
+                return View();
+            }
+
+            string token = await _userManager.GeneratePasswordResetTokenAsync(existUser);
+
+            string link = Url.Action(nameof(ResetPassword), "Account", new { userId = existUser.Id, token }, Request.Scheme, Request.Host.ToString());
+
+
+            string subject = "Verify password reset email";
+
+            string html = string.Empty;
+
+            using (StreamReader reader = new StreamReader("wwwroot/assets/templates/verify.html"))
+            {
+                html = reader.ReadToEnd();
+            }
+
+            html = html.Replace("{{link}}", link);
+            html = html.Replace("{{headerText}}", "Hello P135");
+
+            _emailService.Send(existUser.Email, subject, html);
+            return RedirectToAction(nameof(VerifyEmail));
+        }
+
+
+        [HttpGet]
+        public IActionResult ResetPassword(string userId,string token)
+        {
+            return View(new ResetPasswordVM { Token = token, UserId = userId });
+        }
+
+
+        public async Task<IActionResult> ConfirmResetPassword(ResetPasswordVM resetPassword)
+        {
+            if (!ModelState.IsValid) return View(resetPassword);
+            AppUser existUser = await _userManager.FindByIdAsync(resetPassword.UserId);
+            if (existUser == null) return NotFound();
+            await _userManager.ResetPasswordAsync(existUser, resetPassword.Token, resetPassword.Password);
+            return RedirectToAction(nameof(Login));
+        }
+
     }
 }

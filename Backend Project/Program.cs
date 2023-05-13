@@ -1,9 +1,11 @@
 using Backend_Project.Data;
+using Backend_Project.Helpers;
 using Backend_Project.Models;
 using Backend_Project.Services;
 using Backend_Project.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,6 +38,8 @@ builder.Services.Configure<IdentityOptions>(opt =>
     opt.Lockout.AllowedForNewUsers = true;
 });
 
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<ILayoutService, LayoutService>();
 builder.Services.AddScoped<ISliderService, SliderServive>();
@@ -52,6 +56,8 @@ builder.Services.AddScoped<IBannerService, BannerService>();
 builder.Services.AddScoped<IAuthorService, AuthorService>();
 builder.Services.AddScoped<ISizeService, SizeService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddScoped<EmailSettings>();
+
 
 
 

@@ -3241,6 +3241,10 @@
       "PackagePath": "staticwebassets\\assets\\scss\\style.scss"
     },
     {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Backend Project\\Backend Project\\wwwroot\\assets\\templates\\verify.html",
+      "PackagePath": "staticwebassets\\assets\\templates\\verify.html"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BackendProject.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
