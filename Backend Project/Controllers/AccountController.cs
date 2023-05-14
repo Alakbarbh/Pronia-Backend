@@ -1,8 +1,10 @@
-﻿using Backend_Project.Models;
+﻿using Backend_Project.Helpers.Enums;
+using Backend_Project.Models;
 using Backend_Project.Services.Interfaces;
 using Backend_Project.ViewModels.Account;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace Backend_Project.Controllers
 {
@@ -10,14 +12,17 @@ namespace Backend_Project.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IEmailService _emailService;
         public AccountController(UserManager<AppUser> userManager,
                                  SignInManager<AppUser> signInManager,
+                                 RoleManager<IdentityRole> roleManager,
                                  IEmailService emailService)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _emailService = emailService;
+            _roleManager = roleManager;
         }
         [HttpGet]
         public IActionResult Register()
@@ -58,6 +63,7 @@ namespace Backend_Project.Controllers
             }
 
 
+            await _userManager.AddToRoleAsync(newUser, Roles.Member.ToString());
 
             string token = await _userManager.GenerateEmailConfirmationTokenAsync(newUser);
 
@@ -215,6 +221,18 @@ namespace Backend_Project.Controllers
             }
             await _userManager.ResetPasswordAsync(existUser, resetPassword.Token, resetPassword.Password);
             return RedirectToAction(nameof(Login));
+        }
+
+
+        public async Task CreateRole()
+        {
+            foreach (var role in Enum.GetValues(typeof(Roles)))
+            {
+                if (!await _roleManager.RoleExistsAsync(role.ToString()))
+                {
+                    await _roleManager.CreateAsync(new IdentityRole { Name = role.ToString() });
+                }
+            }
         }
 
     }
