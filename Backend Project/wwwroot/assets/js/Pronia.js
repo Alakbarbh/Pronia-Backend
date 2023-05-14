@@ -120,6 +120,7 @@
     })
 
 
+
     //get products by tag  on click tag
     $(document).on("click", ".product-tag", function (e) {
 

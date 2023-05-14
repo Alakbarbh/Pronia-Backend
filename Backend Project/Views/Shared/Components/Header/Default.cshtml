@@ -407,13 +407,28 @@
                                         <i class="pe-7s-users"></i>
                                     </button>
                                     <ul class="dropdown-menu"
-                                        aria-labelledby="stickysettingButton">
-                                        <li>
-                                            <a class="dropdown-item" href="my-account.html">My account</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="login-register.html">Login | Register</a>
-                                        </li>
+                                        aria-labelledby="settingButton">
+                                        @if (User.Identity.IsAuthenticated)
+                                        {
+                                            <li class="nav-item">
+                                                <form asp-controller="Account" asp-action="Logout" method="post">
+                                                    <button style="border:none;color:black;margin-left:50px;background-color:white" type="submit" class="nav-link">Logout</button>
+                                                </form>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="my-account.html">@User.Identity.Name</a>
+                                            </li>
+                                        }
+                                        else
+                                        {
+                                            <li>
+                                                <a class="nav-link" style="color:black" asp-controller="Account" asp-action="Login">Login</a>
+                                            </li>
+
+                                            <li>
+                                                <a class="nav-link" style="color:black" asp-controller="Account" asp-action="Register">Register</a>
+                                            </li>
+                                        }
                                     </ul>
                                 </li>
                                 <li class="d-none d-lg-block">
@@ -489,15 +504,34 @@
                                     aria-expanded="false">
                                 <i class="pe-7s-users"></i>
                             </button>
+
+
                             <ul class="dropdown-menu dropdown-menu-end"
                                 aria-labelledby="settingButtonTwo">
-                                <li>
-                                    <a class="dropdown-item" href="my-account.html">My account</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="login-register.html">Login | Register</a>
-                                </li>
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <li class="nav-item">
+                                        <form asp-controller="Account" asp-action="Logout" method="post">
+                                            <button style="border:none;color:black;margin-left:50px;background-color:white" type="submit" class="nav-link">Logout</button>
+                                        </form>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="my-account.html">@User.Identity.Name</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a class="nav-link" style="color:black" asp-controller="Account" asp-action="Login">Login</a>
+                                    </li>
+
+                                    <li>
+                                        <a class="nav-link" style="color:black" asp-controller="Account" asp-action="Register">Register</a>
+                                    </li>
+                                }
                             </ul>
+
+
                         </li>
                         <li>
                             <a href="wishlist.html">
@@ -769,6 +803,7 @@
                                     aria-label="searchbtn">
                                 <i class="pe-7s-search"></i>
                             </button>
+
                         </form>
 
                     </div>

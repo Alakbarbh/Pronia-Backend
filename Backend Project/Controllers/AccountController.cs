@@ -81,11 +81,6 @@ namespace Backend_Project.Controllers
 
         }
 
-
-
-
-
-
         public async Task<IActionResult> ConfirmEmail(string userId, string token)
         {
             if (userId == null || token == null) return BadRequest();
@@ -105,8 +100,6 @@ namespace Backend_Project.Controllers
         {
             return View();
         }
-
-
 
 
         [HttpGet]
@@ -159,6 +152,7 @@ namespace Backend_Project.Controllers
         }
 
 
+
         [HttpGet]
         public IActionResult ForgotPassword()
         {
@@ -200,7 +194,6 @@ namespace Backend_Project.Controllers
             _emailService.Send(existUser.Email, subject, html);
             return RedirectToAction(nameof(VerifyEmail));
         }
-
 
         [HttpGet]
         public IActionResult ResetPassword(string userId,string token)

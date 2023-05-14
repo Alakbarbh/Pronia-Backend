@@ -5,5 +5,6 @@ namespace Backend_Project.Services.Interfaces
     public interface ISocialService
     {
         Task<List<Social>> GetSocials();
+        Task<Social> GetById(int? id);
     }
 }
