@@ -17,7 +17,7 @@ namespace Backend_Project.Services
                                                  Where(m => !m.SoftDelete).
                                                  Include(m => m.Images).
                                                  Include(m => m.Author).
-                                                 Include(m => m.Comments).
+                                                 Include(m => m.BlogComments).
                                                  ToListAsync();
 
         public async Task<int> GetCountAsync() => await _context.Products.CountAsync();
@@ -26,7 +26,7 @@ namespace Backend_Project.Services
             Where(m => !m.SoftDelete).
             Include(m => m.Images).
             Include(m => m.Author).
-            Include(m => m.Comments).
+            Include(m => m.BlogComments).
             Skip((page * take) - take).
             Take(take).ToListAsync();
 
@@ -36,7 +36,7 @@ namespace Backend_Project.Services
             return await _context.BLogs.Where(m => !m.SoftDelete).
                                         Include(m=>m.Images).
                                         Include(m=>m.Author).
-                                        Include(m=>m.Comments).
+                                        Include(m=>m.BlogComments).
                                         FirstOrDefaultAsync(m => m.Id == id);
         }
 

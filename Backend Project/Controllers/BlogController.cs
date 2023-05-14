@@ -7,6 +7,8 @@ using Backend_Project.Helpers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
+using System.Reflection.Metadata;
 
 namespace Backend_Project.Controllers
 {
@@ -67,7 +69,7 @@ namespace Backend_Project.Controllers
                                             .Include(m => m.ProductCategories)
                                             .Include(m => m.ProductSizes)
                                             .Include(m => m.ProductTags)
-                                            .Include(m => m.Comments)
+                                            //.Include(m => m.Comments)
                                             .Where(m => m.Name.ToLower().Contains(searchText.ToLower()))
                                             .Take(5)
                                             .ToListAsync();
@@ -106,18 +108,64 @@ namespace Backend_Project.Controllers
         }
 
 
+
         public async Task<IActionResult> BlogDetail(int? id)
         {
-            BLog blog = await _blogService.GetById((int)id);
-            Dictionary<string, string> headerBackground = _context.HeaderBackgrounds.AsEnumerable().ToDictionary(m => m.Key, m => m.Value);
+            BLog blogDt = await _blogService.GetById((int)id);
+            Dictionary<string, string> headerBackgrounds = _context.HeaderBackgrounds.AsEnumerable().ToDictionary(m => m.Key, m => m.Value);
+            List<Category> categories = await _categoryService.GetCategories();
+            List<BLog> blogs = await _blogService.GetBlogs();
+            List<Tag> tags = await _tagService.GetAllAsync();
+            List<Product> newProduct = await _productService.GetNewProducts();
+
+
+            List<BlogComment> blogComments = await _context.BlogComments.Include(m => m.AppUser).Where(m => m.BlogId == id).ToListAsync();
+            CommentVM commentVM = new CommentVM();
+
 
             BlogDetailVM model = new()
             {
-                BlogDt = blog,
-                HeaderBackgrounds = headerBackground
+                BlogDt = blogDt,
+                HeaderBackgrounds = headerBackgrounds,
+                BlogComments = blogComments,
+                CommentVM = commentVM,
+                Categories = categories,
+                Blogs = blogs,
+                Tags = tags,
+                NewProducts = newProduct
             };
 
             return View(model);
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize]
+        public async Task<IActionResult> PostComment(BlogDetailVM blogDetailVM, string userId, int blogId)
+        {
+            if (blogDetailVM.CommentVM.Message == null)
+            {
+                ModelState.AddModelError("Message", "Don't empty");
+                return RedirectToAction(nameof(BlogDetail), new { id = blogId });
+            }
+
+            BlogComment blogComment = new()
+            {
+                FullName = blogDetailVM.CommentVM?.FullName,
+                Email = blogDetailVM.CommentVM?.Email,
+                Subject = blogDetailVM.CommentVM?.Subject,
+                Message = blogDetailVM.CommentVM?.Message,
+                AppUserId = userId,
+                BlogId = blogId
+            };
+
+            await _context.BlogComments.AddAsync(blogComment);
+            await _context.SaveChangesAsync();
+        
+
+            return RedirectToAction(nameof(BlogDetail), new { id = blogId });
+
         }
 
     }

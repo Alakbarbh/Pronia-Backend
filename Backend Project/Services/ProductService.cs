@@ -18,7 +18,7 @@ namespace Backend_Project.Services
                                                                                        .Include(m => m.ProductTags)
                                                                                        .ThenInclude(m => m.Tag)
                                                                                        .Include(m => m.Color)
-                                                                                       .Include(m => m.Comments)
+                                                                                       .Include(m=>m.ProductComments)
                                                                                        .Include(m => m.ProductCategories)
                                                                                        .ToListAsync();
 
@@ -30,7 +30,7 @@ namespace Backend_Project.Services
                                                                 .Include(m => m.ProductTags)
                                                                 .ThenInclude(m => m.Tag)
                                                                 .Include(m => m.Color)
-                                                                .Include(m => m.Comments)
+                                                                .Include(m => m.ProductComments)
                                                                 .Include(m => m.ProductCategories)
                                                                 .ThenInclude(m => m.Category)
                                                                 .FirstOrDefaultAsync(m => m.Id == id);
@@ -60,7 +60,7 @@ namespace Backend_Project.Services
             Include(m => m.ProductSizes).
             Include(m => m.ProductTags).
             Include(m => m.Color).
-            Include(m => m.Comments).Where(m => !m.SoftDelete).
+            Include(m => m.ProductComments).Where(m => !m.SoftDelete).
             Skip((page * take) - take).
             Take(take).ToListAsync();
             }

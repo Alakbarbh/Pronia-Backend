@@ -59,13 +59,13 @@
                         <td>
                             <a class="btn btn-outline-info" asp-action="Detail" asp-route-id="@product.Id">Info</a>
                             <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@product.Id">Edit</a>
-                            <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@product.Id">Delete</a>
+                            <form style="display:inline-block" asp-action="Delete" asp-route-id="@product.Id" method="post">
+                                <button type="submit" class="btn btn-outline-danger">Delete</button>
+                            </form>
                         </td>
                     </tr>
                     number++;
                 }
-
-
             </tbody>
         </table>
     </div>

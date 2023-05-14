@@ -1,4 +1,7 @@
 ﻿@model ProductDetailVM
+
+@inject UserManager<AppUser> userManager;
+
 @{
     ViewData["Title"] = "ProductDetail";
 
@@ -31,8 +34,8 @@
                     <div class="single-product-img">
                         <div class="swiper-container single-product-slider">
                             <div class="swiper-wrapper">
-                                
-                                @foreach (var sliderPhoto in Model.ProductDetail.Images)
+
+                                @foreach (var sliderPhoto in Model.ProductDt.Images)
                                 {
                                     <div class="swiper-slide">
                                         <a href="~/assets/images/website-images/@sliderPhoto.Image"
@@ -49,16 +52,14 @@
                         <div class="thumbs-arrow-holder">
                             <div class="swiper-container single-product-thumbs">
                                 <div class="swiper-wrapper">
-
-                                    @foreach (var slider in Model.ProductDetail.Images)
+                                    @foreach (var sliderImage in Model.ProductDt.Images)
                                     {
                                         <a href="#" class="swiper-slide">
                                             <img class="img-full"
-                                             src="~/assets/images/website-images/@slider.Image?"
+                                             src="~/assets/images/website-images/@sliderImage.Image?"
                                              alt="Product Thumnail" />
                                         </a>
                                     }
-
 
 
                                 </div>
@@ -77,22 +78,22 @@
                 </div>
                 <div class="col-lg-6 pt-5 pt-lg-0">
                     <div class="single-product-content">
-                        <h2 class="title">@Model.ProductDetail.Name</h2>
+                        <h2 class="title">@Model.ProductDt.Name</h2>
                         <div class="price-box">
-                            <span class="new-price">$@Model.ProductDetail.Price </span>
+                            <span class="new-price">$@Model.ProductDt.Price </span>
                         </div>
                         <div class="rating-box-wrap">
                             <div class="rating-box">
                                 <ul>
-                                    @for (int i = 0; i < Model.ProductDetail.Rate; i++)
+                                    @for (int i = 0; i < Model.ProductDt.Rate; i++)
                                     {
                                         <li><i class="fa fa-star"></i></li>
                                     }
-                                    @for (int i = 0; i < 5 - Model.ProductDetail.Rate; i++)
+                                    @for (int i = 0; i < 5 - Model.ProductDt.Rate; i++)
                                     {
-                                        <li><i class="fa fa-star" style="color:gray"></i></li>
-                                    }
+                                        <li><i class="fa fa-star" style="color: darkgray"></i></li>
 
+                                    }
                                 </ul>
                             </div>
                             <div class="review-status">
@@ -102,7 +103,7 @@
                         <div class="selector-wrap color-option">
                             <span class="selector-title border-bottom-0">Color</span>
                             <select class="nice-select wide border-bottom-0 rounded-0">
-                                <option value="default">@Model.ProductDetail.Color.Name</option>
+                                <option value="default">@Model.ProductDt.Color.Name</option>
                                 <option value="blue">Blue</option>
                                 <option value="green">Green</option>
                                 <option value="red">Red</option>
@@ -111,15 +112,15 @@
                         <div class="selector-wrap size-option">
                             <span class="selector-title">Size</span>
                             <select class="nice-select wide rounded-0">
-                                @foreach (var size in Model.ProductDetail.ProductSizes)
+                                @foreach (var size in Model.ProductDt.ProductSizes)
                                 {
                                     <option value="medium">@size.Size.Name</option>
                                 }
-                                
+
                             </select>
                         </div>
                         <p class="short-desc">
-                            @Model.ProductDetail.Description.Substring(0,250)
+                            @Model.ProductDt.Description.Substring(0,250)
                         </p>
                         <ul class="quantity-with-btn">
                             <li class="quantity">
@@ -144,17 +145,18 @@
                                 </a>
                             </li>
                         </ul>
-
                         <ul class="service-item-wrap">
                             @foreach (var advertising in Model.Advertisings)
                             {
                                 <li class="service-item">
                                     <div class="service-img">
-                                        <img src="/assets/images/website-images/@advertising.Image"
+                                        <img src="~/assets/images/website-images/@advertising.Image"
                                          alt="Shipping Icon" />
                                     </div>
                                     <div class="service-content">
-                                        @Html.Raw(advertising.Name)
+                                        <span class="title">
+                                            @advertising.Name
+                                        </span>
                                     </div>
                                 </li>
                             }
@@ -165,25 +167,26 @@
                             <span class="title">SKU:</span>
                             <ul>
                                 <li>
-                                    <a href="#">@Model.ProductDetail.SKU</a>
+                                    <a href="#">@Model.ProductDt.SKU</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="product-category">
                             <span class="title">Categories :</span>
                             <ul>
-                                @foreach (var category in Model.ProductDetail.ProductCategories)
+                                @foreach (var category in Model.ProductDt.ProductCategories)
                                 {
                                     <li>
-                                        <a href="#">@category.Category.Name</a>
+                                        <a href="#">@category.Category.Name,</a>
                                     </li>
                                 }
                             </ul>
                         </div>
+
                         <div class="product-category product-tags">
                             <span class="title">Tags :</span>
                             <ul>
-                                @foreach (var tag in Model.ProductDetail.ProductTags)
+                                @foreach (var tag in Model.ProductDt.ProductTags)
                                 {
                                     <li>
                                         <a href="#">@tag.Tag.Name</a>
@@ -191,6 +194,7 @@
                                 }
                             </ul>
                         </div>
+
                         <div class="product-category social-link align-items-center pb-0">
                             <span class="title pe-3">Share:</span>
                             <ul>
@@ -321,7 +325,7 @@
                              aria-labelledby="description-tab">
                             <div class="product-description-body">
                                 <p class="short-desc mb-0">
-                                    @Model.ProductDetail.Description
+                                    @Model.ProductDt.Description
                                 </p>
                             </div>
                         </div>
@@ -331,106 +335,106 @@
                              aria-labelledby="reviews-tab">
                             <div class="product-review-body">
                                 <div class="blog-comment mt-0">
-                                    <h4 class="heading">Comments (03)</h4>
-                                    <div class="blog-comment-item">
-                                        <div class="blog-comment-img">
-                                            <img src="assets/images/website-images/1-1-120x120.webp"
-                                                 alt="User Image" />
-                                        </div>
-                                        <div class="blog-comment-content">
-                                            <div class="user-meta">
-                                                <h2 class="user-name">Donald Chavez</h2>
-                                                <span class="date">21 July 2021</span>
+                                    <h4 class="heading">Comments (@Model.ProductComments.Count())</h4>
+
+                                    @foreach (var productComment in Model.ProductComments)
+                                    {
+                                        <div class="blog-comment-item">
+
+                                            <div class="blog-comment-content">
+                                                <div class="user-meta">
+                                                    <h2 class="user-name">@(productComment.AppUser.FirstName + " " + productComment.AppUser.LastName)</h2>
+                                                    <span class="date">@productComment.CreateDate.ToString("dd MMMMM yyyy")</span>
+                                                </div>
+                                                <p class="user-comment">
+                                                    @productComment.Message
+                                                </p>
+                                                <a class="btn btn-custom-size comment-btn" href="#">Reply</a>
                                             </div>
-                                            <p class="user-comment">
-                                                Lorem ipsum dolor sit amet, consectetur adipisi
-                                                elit, sed do eiusmod tempor incidid ut labore etl
-                                                dolore magna aliqua. Ut enim ad minim veniam, quis
-                                                nostrud exercitati ullamco laboris nisi ut
-                                                aliquiex ea commodo consequat.
-                                            </p>
-                                            <a class="btn btn-custom-size comment-btn" href="#">Reply</a>
                                         </div>
-                                    </div>
-                                    <div class="blog-comment-item relpy-item">
-                                        <div class="blog-comment-img">
-                                            <img src="assets/images/website-images/1-2-120x120.webp"
-                                                 alt="User Image" />
-                                        </div>
-                                        <div class="blog-comment-content">
-                                            <div class="user-meta">
-                                                <h2 class="user-name">Marissa Swan</h2>
-                                                <span class="date">21 July 2021</span>
-                                            </div>
-                                            <p class="user-comment">
-                                                Lorem ipsum dolor sit amet, consectetur adipisi
-                                                elit, sed do eiusmod tempr incidid ut labore etl
-                                                dolore magna aliqua. Ut enim ad minim veniam,
-                                                quisnos exercitati ullamco laboris nisi ut
-                                                aliquiex.
-                                            </p>
-                                            <a class="btn btn-custom-size comment-btn style-2"
-                                               href="#">Reply</a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-comment-item">
-                                        <div class="blog-comment-img">
-                                            <img src="assets/images/website-images/1-3-120x120.webp"
-                                                 alt="User Image" />
-                                        </div>
-                                        <div class="blog-comment-content">
-                                            <div class="user-meta">
-                                                <h2 class="user-name">Donald Chavez</h2>
-                                                <span class="date">21 July 2021</span>
-                                            </div>
-                                            <p class="user-comment">
-                                                Lorem ipsum dolor sit amet, consectetur adipisi
-                                                elit, sed do eiusmod tempor incidid ut labore etl
-                                                dolore magna aliqua. Ut enim ad minim veniam, quis
-                                                nostrud exercitati ullamco laboris nisi ut
-                                                aliquiex ea commodo consequat.
-                                            </p>
-                                            <a class="btn btn-custom-size comment-btn" href="#">Reply</a>
-                                        </div>
-                                    </div>
+                                    }
+
+
                                 </div>
                                 <div class="feedback-area">
                                     <h2 class="heading">Leave a comment</h2>
-                                    <form class="feedback-form" action="#">
-                                        <div class="group-input">
-                                            <div class="form-field me-md-30 mb-30 mb-md-0">
-                                                <input type="text"
-                                                       name="name"
-                                                       placeholder="Your Name*"
-                                                       class="input-field" />
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        //hal-hazirda login olan user
+                                        AppUser user = userManager.Users.FirstOrDefault(u => u.UserName == User.Identity.Name);
+
+                                        <form class="feedback-form" asp-controller="Shop" asp-action="PostComment" asp-route-userId="@user.Id" asp-route-productId="@Model.ProductDt.Id" method="post">
+
+                                            <div class="group-input">
+                                                <div class="form-field me-md-30 mb-30 mb-md-0">
+                                                    <input value="@(user.FirstName + " " + user.LastName)"
+                                                       readonly
+                                                       class="input-field" asp-for="CommentVM.FullName" />
+                                                </div>
+                                                <div class="form-field">
+                                                    <input readonly
+                                                       value="@user.Email
+                                                       class="input-field" asp-for="CommentVM.Email" />
+                                                </div>
                                             </div>
-                                            <div class="form-field">
-                                                <input type="text"
-                                                       name="email"
-                                                       placeholder="Your Email*"
-                                                       class="input-field" />
+
+                                            <div class="form-field mt-30">
+                                                <input placeholder="Subject (Optinal)"
+                                                   class="input-field" asp-for="CommentVM.Subject" />
                                             </div>
-                                        </div>
-                                        <div class="form-field mt-30">
-                                            <input type="text"
-                                                   name="subject"
-                                                   placeholder="Subject (Optinal)"
-                                                   class="input-field" />
-                                        </div>
-                                        <div class="form-field mt-30">
-                                            <textarea name="message"
-                                                      placeholder="Message"
-                                                      class="textarea-field"></textarea>
-                                        </div>
-                                        <div class="button-wrap pt-5">
-                                            <button type="submit"
+                                            <div class="form-field mt-30">
+                                                <textarea placeholder="Message"
+                                                      class="textarea-field" asp-for="CommentVM.Message"></textarea>
+                                            </div>
+                                            <div class="button-wrap pt-5">
+                                                <button type="submit"
                                                     value="submit"
                                                     class="btn btn-custom-size xl-size btn-pronia-primary"
                                                     name="submit">
-                                                Post Comment
-                                            </button>
-                                        </div>
-                                    </form>
+                                                    Post Comment
+                                                </button>
+                                            </div>
+                                        </form>
+                                    }
+                                    else
+                                    {
+                                        <form class="feedback-form" asp-controller="Shop" asp-action="PostComment" method="post">
+                                            <div class="group-input">
+                                                <div class="form-field me-md-30 mb-30 mb-md-0">
+                                                    <input type="text"
+                                                       name="name"
+                                                       placeholder="Your Name*"
+                                                       class="input-field" />
+                                                </div>
+                                                <div class="form-field">
+                                                    <input type="text"
+                                                       name="email"
+                                                       placeholder="Your Email*"
+                                                       class="input-field" />
+                                                </div>
+                                            </div>
+                                            <div class="form-field mt-30">
+                                                <input type="text"
+                                                   name="subject"
+                                                   placeholder="Subject (Optinal)"
+                                                   class="input-field" />
+                                            </div>
+                                            <div class="form-field mt-30">
+                                                <textarea name="message"
+                                                      placeholder="Message"
+                                                      class="textarea-field"></textarea>
+                                            </div>
+                                            <div class="button-wrap pt-5">
+                                                <button type="submit"
+                                                    value="submit"
+                                                    class="btn btn-custom-size xl-size btn-pronia-primary"
+                                                    name="submit">
+                                                    Post Comment
+                                                </button>
+                                            </div>
+                                        </form>
+                                    }
+
                                 </div>
                             </div>
                         </div>
@@ -453,283 +457,94 @@
                 <div class="col-lg-12">
                     <div class="swiper-container product-slider">
                         <div class="swiper-wrapper">
-
-                            <div class="swiper-slide product-item">
-                                <div class="product-img">
-                                    <a href="single-product-variable.html">
-                                        <img class="primary-img"
-                                             src="assets/images/website-images/1-9-270x300.jpg"
-                                             alt="Product Images" />
-                                        <img class="secondary-img"
-                                             src="assets/images/website-images/1-10-270x300.jpg"
-                                             alt="Product Images" />
-                                    </a>
-                                    <div class="product-add-action">
-                                        <ul>
-                                            <li>
-                                                <a href="wishlist.html"
-                                                   data-tippy="Add to wishlist"
+                            @foreach (var relatedProduct in Model.RelatedProducts.Take(4))
+                            {
+                                <div class="swiper-slide product-item">
+                                    <div class="product-img">
+                                        <a asp-action="ProductDetail" asp-route-id="@relatedProduct.Id">
+                                            <img class="primary-img"
+                                             src="~/assets/images/website-images/@relatedProduct.MainImage"
+                                             alt="product ımages" />
+                                            <img class="secondary-img"
+                                             src="~/assets/images/website-images/@relatedProduct.HoverImage"
+                                             alt="product ımages" />
+                                        </a>
+                                        <div class="product-add-action">
+                                            <ul>
+                                                <li>
+                                                    <a href="wishlist.html"
+                                                   data-tippy="add to wishlist"
                                                    data-tippy-inertia="true"
                                                    data-tippy-animation="shift-away"
                                                    data-tippy-delay="50"
                                                    data-tippy-arrow="true"
                                                    data-tippy-theme="sharpborder">
-                                                    <i class="pe-7s-like"></i>
-                                                </a>
-                                            </li>
-                                            <li class="quuickview-btn"
+                                                        <i class="pe-7s-like"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="quuickview-btn"
                                                 data-bs-toggle="modal"
-                                                data-bs-target="#quickModal">
-                                                <a href="#"
-                                                   data-tippy="Quickview"
+                                                data-bs-target="#quickmodal">
+                                                    <a href="#"
+                                                   data-tippy="quickview"
                                                    data-tippy-inertia="true"
                                                    data-tippy-animation="shift-away"
                                                    data-tippy-delay="50"
                                                    data-tippy-arrow="true"
                                                    data-tippy-theme="sharpborder">
-                                                    <i class="pe-7s-look"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="cart.html"
-                                                   data-tippy="Add to cart"
+                                                        <i class="pe-7s-look"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="cart.html"
+                                                   data-tippy="add to cart"
                                                    data-tippy-inertia="true"
                                                    data-tippy-animation="shift-away"
                                                    data-tippy-delay="50"
                                                    data-tippy-arrow="true"
                                                    data-tippy-theme="sharpborder">
-                                                    <i class="pe-7s-cart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
+                                                        <i class="pe-7s-cart"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product-content">
+                                        <a class="product-name"
+                                       asp-action="ProductDetail" asp-route-id="@relatedProduct.Id">@relatedProduct.Name</a>
+                                        <div class="price-box pb-1">
+                                            <span class="new-price">$@relatedProduct.Price</span>
+                                        </div>
+                                        <div class="rating-box">
+                                            <ul>
+                                                @for (int i = 0; i < relatedProduct.Rate; i++)
+                                                {
+                                                    <li><i class="fa fa-star"></i></li>
+                                                }
+                                                @for (int i = 0; i < 5 - relatedProduct.Rate; i++)
+                                                {
+                                                    <li><i class="fa fa-star" style="color: darkgray"></i></li>
+
+                                                }
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="product-content">
-                                    <a class="product-name"
-                                       href="single-product-variable.html">American Marigold</a>
-                                    <div class="price-box pb-1">
-                                        <span class="new-price">$23.45</span>
-                                    </div>
-                                    <div class="rating-box">
-                                        <ul>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
 
 
 
-                            <div class="swiper-slide product-item">
-                                <div class="product-img">
-                                    <a href="single-product-variable.html">
-                                        <img class="primary-img"
-                                             src="assets/images/website-images/1-10-270x300.jpg"
-                                             alt="Product Images" />
-                                        <img class="secondary-img"
-                                             src="assets/images/website-images/1-11-270x300.jpg"
-                                             alt="Product Images" />
-                                    </a>
-                                    <div class="product-add-action">
-                                        <ul>
-                                            <li>
-                                                <a href="wishlist.html"
-                                                   data-tippy="Add to wishlist"
-                                                   data-tippy-inertia="true"
-                                                   data-tippy-animation="shift-away"
-                                                   data-tippy-delay="50"
-                                                   data-tippy-arrow="true"
-                                                   data-tippy-theme="sharpborder">
-                                                    <i class="pe-7s-like"></i>
-                                                </a>
-                                            </li>
-                                            <li class="quuickview-btn"
-                                                data-bs-toggle="modal"
-                                                data-bs-target="#quickModal">
-                                                <a href="#"
-                                                   data-tippy="Quickview"
-                                                   data-tippy-inertia="true"
-                                                   data-tippy-animation="shift-away"
-                                                   data-tippy-delay="50"
-                                                   data-tippy-arrow="true"
-                                                   data-tippy-theme="sharpborder">
-                                                    <i class="pe-7s-look"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="cart.html"
-                                                   data-tippy="Add to cart"
-                                                   data-tippy-inertia="true"
-                                                   data-tippy-animation="shift-away"
-                                                   data-tippy-delay="50"
-                                                   data-tippy-arrow="true"
-                                                   data-tippy-theme="sharpborder">
-                                                    <i class="pe-7s-cart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <a class="product-name"
-                                       href="single-product-variable.html">Black Eyed Susan</a>
-                                    <div class="price-box pb-1">
-                                        <span class="new-price">$25.45</span>
-                                    </div>
-                                    <div class="rating-box">
-                                        <ul>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide product-item">
-                                <div class="product-img">
-                                    <a href="single-product-variable.html">
-                                        <img class="primary-img"
-                                             src="assets/images/website-images/1-11-270x300.jpg"
-                                             alt="Product Images" />
-                                        <img class="secondary-img"
-                                             src="assets/images/website-images/1-4-270x300.jpg"
-                                             alt="Product Images" />
-                                    </a>
-                                    <div class="product-add-action">
-                                        <ul>
-                                            <li>
-                                                <a href="wishlist.html"
-                                                   data-tippy="Add to wishlist"
-                                                   data-tippy-inertia="true"
-                                                   data-tippy-animation="shift-away"
-                                                   data-tippy-delay="50"
-                                                   data-tippy-arrow="true"
-                                                   data-tippy-theme="sharpborder">
-                                                    <i class="pe-7s-like"></i>
-                                                </a>
-                                            </li>
-                                            <li class="quuickview-btn"
-                                                data-bs-toggle="modal"
-                                                data-bs-target="#quickModal">
-                                                <a href="#"
-                                                   data-tippy="Quickview"
-                                                   data-tippy-inertia="true"
-                                                   data-tippy-animation="shift-away"
-                                                   data-tippy-delay="50"
-                                                   data-tippy-arrow="true"
-                                                   data-tippy-theme="sharpborder">
-                                                    <i class="pe-7s-look"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="cart.html"
-                                                   data-tippy="Add to cart"
-                                                   data-tippy-inertia="true"
-                                                   data-tippy-animation="shift-away"
-                                                   data-tippy-delay="50"
-                                                   data-tippy-arrow="true"
-                                                   data-tippy-theme="sharpborder">
-                                                    <i class="pe-7s-cart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <a class="product-name"
-                                       href="single-product-variable.html">Bleeding Heart</a>
-                                    <div class="price-box pb-1">
-                                        <span class="new-price">$30.45</span>
-                                    </div>
-                                    <div class="rating-box">
-                                        <ul>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide product-item">
-                                <div class="product-img">
-                                    <a href="single-product-variable.html">
-                                        <img class="primary-img"
-                                             src="assets/images/website-images/1-7-270x300.jpg"
-                                             alt="Product Images" />
-                                        <img class="secondary-img"
-                                             src="assets/images/website-images/1-8-270x300.jpg"
-                                             alt="Product Images" />
-                                    </a>
-                                    <div class="product-add-action">
-                                        <ul>
-                                            <li>
-                                                <a href="wishlist.html"
-                                                   data-tippy="Add to wishlist"
-                                                   data-tippy-inertia="true"
-                                                   data-tippy-animation="shift-away"
-                                                   data-tippy-delay="50"
-                                                   data-tippy-arrow="true"
-                                                   data-tippy-theme="sharpborder">
-                                                    <i class="pe-7s-like"></i>
-                                                </a>
-                                            </li>
-                                            <li class="quuickview-btn"
-                                                data-bs-toggle="modal"
-                                                data-bs-target="#quickModal">
-                                                <a href="#"
-                                                   data-tippy="Quickview"
-                                                   data-tippy-inertia="true"
-                                                   data-tippy-animation="shift-away"
-                                                   data-tippy-delay="50"
-                                                   data-tippy-arrow="true"
-                                                   data-tippy-theme="sharpborder">
-                                                    <i class="pe-7s-look"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="cart.html"
-                                                   data-tippy="Add to cart"
-                                                   data-tippy-inertia="true"
-                                                   data-tippy-animation="shift-away"
-                                                   data-tippy-delay="50"
-                                                   data-tippy-arrow="true"
-                                                   data-tippy-theme="sharpborder">
-                                                    <i class="pe-7s-cart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <a class="product-name"
-                                       href="single-product-variable.html">Bloody Cranesbill</a>
-                                    <div class="price-box pb-1">
-                                        <span class="new-price">$45.00</span>
-                                    </div>
-                                    <div class="rating-box">
-                                        <ul>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+
+                            }
+
+
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    </div>
     </div>
     <!-- Product Area End Here -->
 </main>

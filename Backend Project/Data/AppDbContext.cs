@@ -19,7 +19,6 @@ namespace Backend_Project.Data
         public DbSet<Category> Categories { get; set; }
         public DbSet<Client> Clients { get; set; }
         public DbSet<Color> Colors { get; set; }
-        public DbSet<Comment> Comments { get; set; }
         public DbSet<HeaderBackground> HeaderBackgrounds { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductCategory> ProductCategories { get; set; }
@@ -31,6 +30,10 @@ namespace Backend_Project.Data
         public DbSet<Slider> Sliders { get; set; }
         public DbSet<Social> Socials { get; set; }
         public DbSet<Tag> Tags { get; set; }
+        public DbSet<ProductComment> ProductComments { get; set; }
+        public DbSet<BlogComment> BlogComments { get; set; }
+
+
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

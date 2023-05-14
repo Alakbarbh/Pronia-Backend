@@ -143,20 +143,20 @@
                                         <div class="blog-meta">
                                             <ul>
                                                 <li class="author">
-                                                    <a href="#">By:@blog.Author.Name</a>
+                                                    <a asp-controller="Blog" asp-action="BlogDetail" asp-route-id="@blog.Id">By:@blog.Author.Name</a>
                                                 </li>
                                                 <li class="date">@blog.CreateDate.ToString("dd MMMM yyyy")</li>
                                             </ul>
                                         </div>
                                         <h2 class="title">
-                                            <a href="blog-detail.html">@blog.Title</a>
+                                            <a asp-controller="Blog" asp-action="BlogDetail" asp-route-id="@blog.Id">@blog.Title</a>
                                         </h2>
                                         <p class="short-desc mb-7">
                                             @blog.Description
                                         </p>
                                     </div>
                                     <div class="blog-img img-hover-effect">
-                                        <a href="blog-detail.html">
+                                        <a asp-controller="Blog" asp-action="BlogDetail" asp-route-id="@blog.Id">
                                             @foreach (var blogImage in blog.Images)
                                             {
                                                 <img class="img-full"

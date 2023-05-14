@@ -219,6 +219,50 @@ namespace Backend_Project.Migrations
                     b.ToTable("BLogs");
                 });
 
+            modelBuilder.Entity("Backend_Project.Models.BlogComment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("BlogId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FullName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Message")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("SoftDelete")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Subject")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdateDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("BlogId");
+
+                    b.ToTable("BlogComments");
+                });
+
             modelBuilder.Entity("Backend_Project.Models.BlogImage", b =>
                 {
                     b.Property<int>("Id")
@@ -355,52 +399,6 @@ namespace Backend_Project.Migrations
                     b.ToTable("Colors");
                 });
 
-            modelBuilder.Entity("Backend_Project.Models.Comment", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<int>("AppUserId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("AppUserId1")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("BlogId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("CreateDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("SoftDelete")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Subject")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("UpdateDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AppUserId1");
-
-                    b.HasIndex("BlogId");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("Comments");
-                });
-
             modelBuilder.Entity("Backend_Project.Models.HeaderBackground", b =>
                 {
                     b.Property<int>("Id")
@@ -513,6 +511,50 @@ namespace Backend_Project.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("ProductCategories");
+                });
+
+            modelBuilder.Entity("Backend_Project.Models.ProductComment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FullName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Message")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("SoftDelete")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Subject")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdateDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ProductComments");
                 });
 
             modelBuilder.Entity("Backend_Project.Models.ProductImage", b =>
@@ -893,6 +935,23 @@ namespace Backend_Project.Migrations
                     b.Navigation("Author");
                 });
 
+            modelBuilder.Entity("Backend_Project.Models.BlogComment", b =>
+                {
+                    b.HasOne("Backend_Project.Models.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId");
+
+                    b.HasOne("Backend_Project.Models.BLog", "Blog")
+                        .WithMany("BlogComments")
+                        .HasForeignKey("BlogId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Blog");
+                });
+
             modelBuilder.Entity("Backend_Project.Models.BlogImage", b =>
                 {
                     b.HasOne("Backend_Project.Models.BLog", "BLog")
@@ -902,31 +961,6 @@ namespace Backend_Project.Migrations
                         .IsRequired();
 
                     b.Navigation("BLog");
-                });
-
-            modelBuilder.Entity("Backend_Project.Models.Comment", b =>
-                {
-                    b.HasOne("Backend_Project.Models.AppUser", "AppUser")
-                        .WithMany("Comments")
-                        .HasForeignKey("AppUserId1");
-
-                    b.HasOne("Backend_Project.Models.BLog", "Blog")
-                        .WithMany("Comments")
-                        .HasForeignKey("BlogId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Backend_Project.Models.Product", "Product")
-                        .WithMany("Comments")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("AppUser");
-
-                    b.Navigation("Blog");
-
-                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("Backend_Project.Models.Product", b =>
@@ -955,6 +989,23 @@ namespace Backend_Project.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("Backend_Project.Models.ProductComment", b =>
+                {
+                    b.HasOne("Backend_Project.Models.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId");
+
+                    b.HasOne("Backend_Project.Models.Product", "Product")
+                        .WithMany("ProductComments")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
 
                     b.Navigation("Product");
                 });
@@ -1059,11 +1110,6 @@ namespace Backend_Project.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Backend_Project.Models.AppUser", b =>
-                {
-                    b.Navigation("Comments");
-                });
-
             modelBuilder.Entity("Backend_Project.Models.Author", b =>
                 {
                     b.Navigation("BLogs");
@@ -1071,7 +1117,7 @@ namespace Backend_Project.Migrations
 
             modelBuilder.Entity("Backend_Project.Models.BLog", b =>
                 {
-                    b.Navigation("Comments");
+                    b.Navigation("BlogComments");
 
                     b.Navigation("Images");
                 });
@@ -1088,11 +1134,11 @@ namespace Backend_Project.Migrations
 
             modelBuilder.Entity("Backend_Project.Models.Product", b =>
                 {
-                    b.Navigation("Comments");
-
                     b.Navigation("Images");
 
                     b.Navigation("ProductCategories");
+
+                    b.Navigation("ProductComments");
 
                     b.Navigation("ProductSizes");
 

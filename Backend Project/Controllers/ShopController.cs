@@ -5,6 +5,7 @@ using Backend_Project.ViewModels;
 using Backend_Project.Helpers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Backend_Project.Controllers
 {
@@ -16,12 +17,14 @@ namespace Backend_Project.Controllers
         private readonly IColorService _colorService;
         private readonly ITagService _tagService;
         private readonly IAdvertisingService _advertisingService;
+        
         public ShopController(AppDbContext context,
                               ICategoryService categoryService,
                               IProductService productService,
                               IColorService colorService,
                               ITagService tagService,
                               IAdvertisingService advertisingService)
+                             
         {
             _context = context;
             _categoryService = categoryService;
@@ -65,7 +68,6 @@ namespace Backend_Project.Controllers
             return PartialView("_ProductsPartial", products);
 
         }
-
         public async Task<IActionResult> GetAllProduct(int? id)
         {
             List<Product> products = await _productService.GetAll();
@@ -73,16 +75,12 @@ namespace Backend_Project.Controllers
             return PartialView("_ProductsPartial", products);
 
         }
-
         public async Task<IActionResult> GetAllProductByColor(int? id)
         {
             List<Product> products = await _productService.GetAll();
 
             return PartialView("_ProductsPartial", products);
-
         }
-
-
         public async Task<IActionResult> GetProductByColor(int? id)
         {
             List<Product> products = await _context.Products.Include(m => m.Color).Where(m=>m.Color.Id == id).ToListAsync();
@@ -96,14 +94,12 @@ namespace Backend_Project.Controllers
             var productCount = await _productService.GetCountAsync();
             return (int)Math.Ceiling((decimal)productCount / take);
         }
-
         public async Task<IActionResult> GetProductFilteredByPrice(string icon)
         {
             List<Product> products = await _context.Products.OrderByDescending(m=>m.Price).ToListAsync();
 
             return PartialView("_ProductsPartial", products);
         }
-
 
         public async Task<IActionResult> MainSearch(string searchText)
         {
@@ -118,15 +114,13 @@ namespace Backend_Project.Controllers
             return View(products);
         }
 
-
-
         public async Task<IActionResult> Search(string searchText)
         {
             List<Product> products = await _context.Products.Include(m => m.Images)
                                             .Include(m => m.ProductCategories)
                                             .Include(m => m.ProductSizes)
                                             .Include(m => m.ProductTags)
-                                            .Include(m => m.Comments)
+                                            //.Include(m => m.Comments)
                                             .Where(m => m.Name.ToLower().Contains(searchText.ToLower()))
                                             .Take(5)
                                             .ToListAsync();
@@ -136,35 +130,62 @@ namespace Backend_Project.Controllers
 
         public async Task<IActionResult> ProductDetail(int? id)
         {
-            Product product = await _productService.GettFullDataById((int)id);
-            Dictionary<string, string> headerBackground = _context.HeaderBackgrounds.AsEnumerable().ToDictionary(m => m.Key, m => m.Value);
-            List<Product> products = await _productService.GetAll();
+            Product productDt = await _productService.GettFullDataById((int)id);
+            Dictionary<string, string> headerBackgrounds = _context.HeaderBackgrounds.AsEnumerable().ToDictionary(m => m.Key, m => m.Value);
             List<Advertising> advertisings = await _advertisingService.GetAll();
-
-            //var related = await _context.Products.Include(m => m.ProductCategories).ThenInclude(m => m.Category).ToListAsync();
-
             List<Category> categories = await _categoryService.GetCategories();
-            List<Product> relatedProducts = new();
-            
+            List<Product> releatedProducts = new();
+
+            List<ProductComment> productComments = await _context.ProductComments.Include(m => m.AppUser).Where(m => m.ProductId == id).ToListAsync();
+            CommentVM commentVM = new CommentVM();
+
             foreach (var category in categories)
             {
-                Product relatedProduct = await _context.ProductCategories.Where(m => m.Category.Id == category.Id).Select(m => m.Product).FirstAsync();
-                relatedProducts.Add(relatedProduct);
+                Product releatedProduct = await _context.ProductCategories.Include(m => m.Product).ThenInclude(m => m.Images).Where(m => m.Category.Id == category.Id).Select(m => m.Product).FirstAsync();
+                releatedProducts.Add(releatedProduct);
             }
-
-            
 
             ProductDetailVM model = new()
             {
-                ProductDetail = product,
-                HeaderBackgrounds = headerBackground,
-                Products = products,
+                ProductDt = productDt,
+                HeaderBackgrounds = headerBackgrounds,
                 Advertisings = advertisings,
+                RelatedProducts = releatedProducts,
+                CommentVM = commentVM,
+                ProductComments = productComments
             };
+
             return View(model);
         }
 
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize]
+        public async Task<IActionResult> PostComment(ProductDetailVM productDetailVM, string userId, int productId)
+        {
+            if (productDetailVM.CommentVM.Message == null)
+            {
+                ModelState.AddModelError("Message", "Don't empty");
+                return RedirectToAction(nameof(ProductDetail), new { id = productId });
+            }
+
+            ProductComment productComment = new()
+            {
+                FullName = productDetailVM.CommentVM?.FullName,
+                Email = productDetailVM.CommentVM?.Email,
+                Subject = productDetailVM.CommentVM?.Subject,
+                Message = productDetailVM.CommentVM?.Message,
+                AppUserId = userId,
+                ProductId = productId
+            };
+
+            await _context.ProductComments.AddAsync(productComment);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(ProductDetail), new { id = productId });
+
+        }
 
         public async Task<IActionResult> GetProductsByTag(int? id)
         {
@@ -172,7 +193,6 @@ namespace Backend_Project.Controllers
 
             return PartialView("_ProductsPartial", products);
         }
-
 
     }
 }
